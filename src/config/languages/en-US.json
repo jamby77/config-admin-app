@@ -1,0 +1,2471 @@
+{
+  "globals": {
+    "continue": "Continue",
+    "collapse": "Collapse",
+    "saveAndContinue": "Save & continue",
+    "saveAndExit": "Save & exit",
+    "exit": "Exit",
+    "yes": "Yes",
+    "no": "No",
+    "back": "Back",
+    "done": "Done",
+    "months": "Months",
+    "noData": "No data available",
+    "totalInterest": "Total interest",
+    "monthlyRepayment": "Monthly repayment",
+    "totalRepayment": "Total repayment",
+    "apr": "APR",
+    "visit": "Visit",
+    "fees": "Fees",
+    "percentSign": "%",
+    "dueDate": "Due date",
+    "principal": "Principal",
+    "seeMore": "See more",
+    "interest": "Interest",
+    "total": "Total",
+    "passwordMatch": "The password and confirmation password do not match!"
+  },
+  "pageRoutes": {
+    "customerLogin": "Login",
+    "customerWizard": "Customer Wizard",
+    "forgotPassword": "Password recovery",
+    "accountSetPassword": "Set password",
+    "accountVerifyEmail": "Email verification",
+    "notFound": "Page not found",
+    "accountLogout": "Logout",
+    "idVerification": "ID verification"
+  },
+  "applyNote": {
+    "header": "Apply in just 10 minutes",
+    "firstParagraph": "It's quick to apply for an {{system.vendorName}} {{product.loanType}}. We only need a few details to make a decision.",
+    "secondParagraph": "To start the process {{name}}, we need you to create a Customer Account. Please <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.esmeloans.com/how-to-get-business-loan/#eligibility\">check that you are eligible</a> before applying.",
+    "thirdParagraph": "Our <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.esmeloans.com/privacy/\">Privacy Notice</a> explains how we will use your personal information and financial information during this application process."
+  },
+  "steps": [
+    {
+      "title": "Rejection not limited company",
+      "label": "Rejection not limited company"
+    },
+    {
+      "title": "Refer",
+      "label": "Refer"
+    },
+    {
+      "title": "Rejection quote request",
+      "label": "Rejection quote request"
+    },
+    {
+      "title": "Rejection not SME",
+      "label": "Rejection not SME"
+    },
+    {
+      "title": "Rejection quote request",
+      "label": "Rejection quote request"
+    },
+    {
+      "title": "Rejection quote request",
+      "label": "Rejection quote request"
+    },
+    {
+      "title": "Rejection quote request",
+      "label": "Rejection quote request"
+    },
+    {
+      "title": "Rejection wrong details",
+      "label": "Rejection wrong details"
+    },
+    {
+      "title": "Rejection multiple directors",
+      "label": "Rejection multiple directors"
+    },
+    {
+      "title": "Quote error",
+      "label": "Quote error"
+    },
+    {
+      "title": "Funding options",
+      "label": "Funding options"
+    },
+    {
+      "title": "Are you a limited company?",
+      "label": "Home"
+    },
+    {
+      "title": "Instant quote",
+      "label": "Instant quote"
+    },
+    {
+      "title": "Instant quote",
+      "label": "Instant quote"
+    },
+    {
+      "title": "Instant quote",
+      "label": "Instant quote"
+    },
+    {
+      "title": "Instant quote",
+      "label": "Instant quote"
+    },
+    {
+      "title": "Your quote",
+      "label": "Your quote"
+    },
+    {
+      "title": "Account creation",
+      "label": "Account creation"
+    },
+    {
+      "title": "Account creation",
+      "label": "Account creation"
+    },
+    {
+      "title": "Business",
+      "label": "Business"
+    },
+    {
+      "title": "Business",
+      "label": "Business"
+    },
+    {
+      "title": "More about you",
+      "label": "More about you"
+    },
+    {
+      "title": "ID verification",
+      "label": "ID verification"
+    },
+    {
+      "title": "Bank details",
+      "label": "Bank details"
+    },
+    {
+      "title": "Summary",
+      "label": "Summary"
+    },
+    {
+      "title": "Offer",
+      "label": "Offer"
+    }
+  ],
+  "progressBar": {
+    "steps": "<b>Step {{currentStep}}</b> of {{stepsLength}}"
+  },
+  "personalDetails": {
+    "label": "Personal Details"
+  },
+  "meta": {
+    "consents": {
+      "privacyNote": "I consent that I have read and understood the information indicated in the use of <a target=\"_blank\" href=\"/terms-and-conditions/\">personal data policy</a> and submit my application",
+      "termsAndConditions": "I have read and accept the <a target=\"_blank\" href=\"/terms-and-conditions/\">Terms & Conditions</a>.",
+      "authorizedDirector": "I am a director of the business specified and have the authority to complete a loan application.",
+      "personalGuarantee": "I understand that if I proceed with this loan application, I will be required to provide a personal guarantee of the company loan. This means that if the company can not make payment of the loan, I can be held personally liable and required to make payment of the loan from my personal assets.",
+      "disclaimer": "These consents do not commit you to apply for any borrowing."
+    },
+    "communicationOptions": {
+      "label": "Marketing preferences",
+      "text": "Please approve your preferred communication channels regarding your loan use when sharing what we and our partners have created with you in mind.",
+      "button": "Choose here",
+      "subtitle": "",
+      "email": "Email",
+      "call": "Phone call",
+      "sms": "SMS",
+      "post": "Post mail",
+      "title": "Create an account",
+      "description": "We will continually work to enhance your options by offering new products and services to save you money."
+    },
+    "keepInformedParagraph": "{{system.vendorName}} will not share your information with third parties for their own marketing purposes.",
+    "pleaseNoteParagraph": {
+      "LIMITED_COMPANY": "Please note: We do not carry out full credit checks. We will carry out a soft credit search on you and any directors whose details you provide. This will not affect your credit score, and can not be seen by other lenders.",
+      "SOLE_TRADER": "Please note: we do not carry out full credit checks. We will carry out a soft credit search on you. This will not affect your credit score, and can not be seen by other lenders."
+    }
+  },
+  "userManagement": {
+    "createUser": {
+      "password": {
+        "label": "Create password",
+        "placeholder": "Start typing..."
+      },
+      "confirmPassword": {
+        "label": "Confirm Password",
+        "placeholder": "Start typing..."
+      }
+    }
+  },
+  "custom": {
+    "fundingOptionsConsent": "I wish to proceed and give consent to be <br> redirected to Funding Options",
+
+    "initialRequestedAmount": {
+      "LIMITED_COMPANY": {
+        "label": "Loan amount",
+        "placeholder": "Start typing..."
+      },
+      "SOLE_TRADER": {
+        "label": "Loan amount",
+        "placeholder": "Start typing..."
+      }
+    },
+    "initialRequestedTerm": {
+      "LIMITED_COMPANY": {
+        "label": "Loan term",
+        "placeholder": "Start typing..."
+      },
+      "SOLE_TRADER": {
+        "label": "Loan term",
+        "placeholder": "Start typing..."
+      }
+    },
+    "wrongDetails": "Please confirm you are happy with the presented information. Please note that clicking \"No\" will stop the application process"
+  },
+  "applicant": {
+    "idVerification": {
+      "desktop": {
+        "title": "ID Verification",
+        "subTitle": "Please check your number is correct and we will text you a link which you can then use to take a selfie and a photo of ID.",
+        "waitingFor": "This page will be refresh when you finish the verification from the link we just sent you.",
+        "subWaitingFor": "If you haven't received the sms press re-send",
+        "phone": {
+          "label": "Mobile phone number"
+        },
+        "send": "Send",
+        "resend": "Re-send link",
+        "skip": "Skip",
+        "continue": "continue"
+      },
+      "mobile": {
+        "verify": {
+          "subTitle": "",
+          "boxTitle": "Authentication service",
+          "button": "Begin"
+        },
+        "photoManager": {
+          "front": {
+            "title": "",
+            "subTitle": "Please take your front ID card picture first",
+            "button": "Take Photo"
+          },
+          "back": {
+            "title": "",
+            "subTitle": "Please take your back card picture",
+            "button": "Take Photo"
+          },
+          "selfie": {
+            "title": "",
+            "subTitle": "Please take a selfie of your face",
+            "button": "Take a selfie"
+          },
+          "finish": {
+            "title": "",
+            "subTitle": "Uploaded successfully",
+            "button": "Take Photo"
+          }
+        },
+        "cameraErrorMessage": {
+          "text": "We need access to your camera to complete the process. <br />Please try again and provide the access or press skip.",
+          "tryAgain": "Try Again",
+          "skip": "Skip"
+        }
+      }
+    },
+    "custom": {
+      "nationalityCountries": {
+        "label": "Nationality",
+        "placeholder": "Select ..."
+      },
+      "birthCountry": {
+        "label": "Country of birth",
+        "placeholder": "Select ..."
+      },
+      "bankAccountName": {
+        "label": "Account name",
+        "placeholder": "Start typing..."
+      },
+      "bankAccountNumber": {
+        "label": "Account number",
+        "placeholder": "Start typing..."
+      },
+      "bankSortCode": {
+        "label": "Sort code",
+        "placeholder": "Start typing..."
+      },
+      "consentSoftCheck": "I consent to a soft check and understand that this will not leave a mark on my credit file",
+      "consentFunding": "I consent to funding options contacting me with the contact information I have provided",
+      "addressDates": [
+        {
+          "label": "When did you move?",
+          "placeholder": "Please select"
+        },
+        {
+          "label": "When did you move?",
+          "placeholder": "Please select"
+        },
+        {
+          "label": "When did you move?",
+          "placeholder": "Please select"
+        }
+      ],
+      "currentAddress": {
+        "subLabelTop": "Please enter your residential postcode in the field below to search for your address",
+        "postcode": {
+          "label": "Residential address",
+          "placeholder": "Start typing..."
+        },
+        "title": "Home Address",
+        "label": "Address",
+        "confirmedAddress": {
+          "label": "Residential address"
+        },
+        "lookUpAddress": "Look up address",
+        "selectAddress": "Select Address",
+        "enterAddressManually": "Enter Address Manually",
+        "list": {
+          "notFound": "Not Found",
+          "confirm": "Confirm"
+        },
+        "resetAddress": "Clear address",
+        "manualAddress": {
+          "line1": {
+            "label": "First line of address",
+            "placeholder": "Start typing..."
+          },
+          "line2": {
+            "label": "Second line of address",
+            "placeholder": "Start typing..."
+          },
+          "line3": {
+            "label": "Third line of address",
+            "placeholder": "Start typing..."
+          },
+          "town": {
+            "label": "City",
+            "placeholder": "Start typing..."
+          },
+          "postcode": {
+            "label": "Postcode",
+            "placeholder": "Start typing..."
+          },
+          "country": {
+            "label": "Country",
+            "placeholder": "Start typing..."
+          },
+          "cancel": "Cancel",
+          "ok": "Confirm"
+        }
+      },
+      "dateCurrentAddress": {
+        "label": "Please provide three years of address history",
+        "placeholder": "Choose date"
+      },
+      "datesPreviousAddresses": [
+        {
+          "label": "When did you move into your previous address?",
+          "placeholder": "Choose date"
+        },
+        {
+          "label": "When did you move into your previous address?",
+          "placeholder": "Choose date"
+        },
+        {
+          "label": "When did you move into your previous address?",
+          "placeholder": "Choose date"
+        }
+      ],
+      "previousAddresses": [
+        {
+          "placeholder": "Start typing...",
+          "postcode": {
+            "label": "Previous address 1",
+            "placeholder": "Start typing..."
+          },
+          "title": "Home Address",
+          "label": "Previous postcode",
+          "confirmedAddress": {
+            "label": "Previous address 1"
+          },
+          "lookUpAddress": "Look up address",
+          "selectAddress": "Select Address",
+          "enterAddressManually": "Enter Address Manually",
+          "list": {
+            "notFound": "Not Found",
+            "confirm": "Confirm"
+          },
+          "resetAddress": "Clear address",
+          "manualAddress": {
+            "line1": {
+              "label": "First line of address",
+              "placeholder": "Start typing..."
+            },
+            "line2": {
+              "label": "Second line of address",
+              "placeholder": "Start typing..."
+            },
+            "line3": {
+              "label": "Third line of address",
+              "placeholder": "Start typing..."
+            },
+            "town": {
+              "label": "City",
+              "placeholder": "Start typing..."
+            },
+            "postcode": {
+              "label": "Postcode",
+              "placeholder": "Start typing..."
+            },
+            "country": {
+              "label": "Country",
+              "placeholder": "Start typing..."
+            },
+            "cancel": "Cancel",
+            "ok": "Confirm"
+          }
+        },
+        {
+          "placeholder": "Start typing...",
+          "postcode": {
+            "label": "Previous address 2",
+            "placeholder": "Start typing..."
+          },
+          "title": "Home Address",
+          "label": "Previous postcode",
+          "confirmedAddress": {
+            "label": "Previous address 2"
+          },
+          "lookUpAddress": "Look up address",
+          "selectAddress": "Select Address",
+          "enterAddressManually": "Enter Address Manually",
+          "list": {
+            "notFound": "Not Found",
+            "confirm": "Confirm"
+          },
+          "resetAddress": "Clear address",
+          "manualAddress": {
+            "line1": {
+              "label": "First line of address",
+              "placeholder": "Start typing..."
+            },
+            "line2": {
+              "label": "Second line of address",
+              "placeholder": "Start typing..."
+            },
+            "line3": {
+              "label": "Third line of address",
+              "placeholder": "Start typing..."
+            },
+            "town": {
+              "label": "City",
+              "placeholder": "Start typing..."
+            },
+            "postcode": {
+              "label": "Postcode",
+              "placeholder": "Start typing..."
+            },
+            "country": {
+              "label": "Country",
+              "placeholder": "Start typing..."
+            },
+            "cancel": "Cancel",
+            "ok": "Confirm"
+          }
+        },
+        {
+          "placeholder": "Start typing...",
+          "postcode": {
+            "label": "Previous address 3",
+            "placeholder": "Start typing..."
+          },
+          "title": "Home Address",
+          "label": "Previous postcode",
+          "confirmedAddress": {
+            "label": "Previous address 3"
+          },
+          "lookUpAddress": "Look up address",
+          "selectAddress": "Select Address",
+          "enterAddressManually": "Enter Address Manually",
+          "list": {
+            "notFound": "Not Found",
+            "confirm": "Confirm"
+          },
+          "resetAddress": "Clear address",
+          "manualAddress": {
+            "line1": {
+              "label": "First line of address",
+              "placeholder": "Start typing..."
+            },
+            "line2": {
+              "label": "Second line of address",
+              "placeholder": "Start typing..."
+            },
+            "line3": {
+              "label": "Third line of address",
+              "placeholder": "Start typing..."
+            },
+            "town": {
+              "label": "City",
+              "placeholder": "Start typing..."
+            },
+            "postcode": {
+              "label": "Postcode",
+              "placeholder": "Start typing..."
+            },
+            "country": {
+              "label": "Country",
+              "placeholder": "Start typing..."
+            },
+            "cancel": "Cancel",
+            "ok": "Confirm"
+          }
+        }
+      ],
+      "taxHomeCountry": {
+        "label": "Country of tax residency",
+        "placeholder": "Please select ..."
+      }
+    },
+    "birthDate": {
+      "label": "Date of birth",
+      "placeholder": "Enter date",
+      "subLabelTop": "You <span class='text--strong'>must</span> be 18 years or older to apply for a small business loan"
+    },
+    "email": {
+      "label": "Business email address",
+      "subLabelTop": "We will use this email address to communicate with you only regarding your loan application",
+      "placeholder": "Start typing...",
+      "notice": "We will use this email address to communicate with you only regarding your loan application",
+      "additionalInfo": "The email address you chose earlier will be the username you will use to log in"
+    },
+    "fullName": {
+      "title": {
+        "values": {
+          "MISS": "MISS",
+          "MR": "MR",
+          "MRS": "MRS",
+          "MS": "MS",
+          "MX": "MX",
+          "PROF ": "PROF"
+        },
+        "label": "Title",
+        "placeholder": "Please select"
+      },
+      "placeholder": "Start typing...",
+      "firstName": {
+        "label": "First name",
+        "placeholder": "Start typing..."
+      },
+      "lastName": {
+        "label": "Surname",
+        "placeholder": "Start typing..."
+      },
+      "middleName": {
+        "label": "Middle name(s)",
+        "placeholder": "Start typing..."
+      }
+    },
+    "mobile": {
+      "placeholder": "Start typing...",
+      "phone": {
+        "label": "Mobile phone number",
+        "tooltip": {
+          "content": "We will use your mobile phone number to get in touch with you regarding your application or with important information about your {{system.vendorName}} account.",
+          "contentWithAuth": "We will send an activation code to your phone in order to complete the registration process. We may also use your phone number to get in touch regarding your application or with important information about your {{vendor}} account.",
+          "close": "Close"
+        }
+      },
+      "buttonLabel": "Send authentication code",
+      "buttonLabelWithAuth": "Resend code",
+      "authentication": {
+        "label": "Authentication code"
+      }
+    },
+    "password": {
+      "label": "Create Password",
+      "sublabel": "Please create a password which you can use to log into your loan application at any time",
+      "placeholder": "Start typing...",
+      "conditions": {
+        "title": "Your password must:",
+        "length": "Contain a minimum of 8 characters and a maximum of 60 characters",
+        "upCharacter": "Contain at least 1 uppercase character",
+        "lowCharacter": "Contain at least 1 lowercase character",
+        "digit": "Contain at least 1 digit",
+        "special": "Contain at least 1 special character such as @$!%*#?&"
+      }
+    },
+    "confirmPassword": {
+      "label": "Confirm password",
+      "placeholder": "Start typing..."
+    },
+    "residentialStatus": {
+      "otherOwnedProperties": "Other owned properties",
+      "timeAtThisAddress": "When did you move in?",
+      "lessThan3Years": "Less than 3 years",
+      "moreThan3Years": "More than 3 years",
+      "month": {
+        "label": "Please provide three years of address history"
+      }
+    },
+    "otherOwnedProperties": [
+      {
+        "placeholder": "Start typing...",
+        "postcode": {
+          "label": "Other property address 1"
+        },
+        "title": "Home Address",
+        "label": "postcode",
+        "confirmedAddress": {
+          "label": "Other property address 1"
+        },
+        "lookUpAddress": "Look up address",
+        "selectAddress": "Select Address",
+        "enterAddressManually": "Enter Address Manually",
+        "list": {
+          "notFound": "Not Found",
+          "confirm": "Confirm"
+        },
+        "resetAddress": "Clear address",
+        "manualAddress": {
+          "line1": {
+            "label": "First line of address",
+            "placeholder": "Start typing..."
+          },
+          "line2": {
+            "label": "Second line of address",
+            "placeholder": "Start typing..."
+          },
+          "line3": {
+            "label": "Third line of address",
+            "placeholder": "Start typing..."
+          },
+          "town": {
+            "label": "City",
+            "placeholder": "Start typing..."
+          },
+          "postcode": {
+            "label": "Postcode",
+            "placeholder": "Start typing..."
+          },
+          "country": {
+            "label": "Country",
+            "placeholder": "Start typing..."
+          },
+          "cancel": "Cancel",
+          "ok": "Confirm"
+        }
+      },
+      {
+        "placeholder": "Start typing...",
+        "postcode": {
+          "label": "Other property address 2"
+        },
+        "title": "Home Address",
+        "label": "Previous postcode",
+        "confirmedAddress": {
+          "label": "Other property address 2"
+        },
+        "lookUpAddress": "Look up address",
+        "selectAddress": "Select Address",
+        "enterAddressManually": "Enter Address Manually",
+        "list": {
+          "notFound": "Not Found",
+          "confirm": "Confirm"
+        },
+        "resetAddress": "Clear address",
+        "manualAddress": {
+          "line1": {
+            "label": "First line of address",
+            "placeholder": "Start typing..."
+          },
+          "line2": {
+            "label": "Second line of address",
+            "placeholder": "Start typing..."
+          },
+          "line3": {
+            "label": "Third line of address",
+            "placeholder": "Start typing..."
+          },
+          "town": {
+            "label": "City",
+            "placeholder": "Start typing..."
+          },
+          "postcode": {
+            "label": "Postcode",
+            "placeholder": "Start typing..."
+          },
+          "country": {
+            "label": "Country",
+            "placeholder": "Start typing..."
+          },
+          "cancel": "Cancel",
+          "ok": "Confirm"
+        }
+      },
+      {
+        "placeholder": "Start typing...",
+        "postcode": {
+          "label": "Other property address 3"
+        },
+        "title": "Home Address",
+        "label": "Previous postcode",
+        "confirmedAddress": {
+          "label": "Other property address 3"
+        },
+        "lookUpAddress": "Look up address",
+        "selectAddress": "Select Address",
+        "enterAddressManually": "Enter Address Manually",
+        "list": {
+          "notFound": "Not Found",
+          "confirm": "Confirm"
+        },
+        "resetAddress": "Clear address",
+        "manualAddress": {
+          "line1": {
+            "label": "First line of address",
+            "placeholder": "Start typing..."
+          },
+          "line2": {
+            "label": "Second line of address",
+            "placeholder": "Start typing..."
+          },
+          "line3": {
+            "label": "Third line of address",
+            "placeholder": "Start typing..."
+          },
+          "town": {
+            "label": "City",
+            "placeholder": "Start typing..."
+          },
+          "postcode": {
+            "label": "Postcode",
+            "placeholder": "Start typing..."
+          },
+          "country": {
+            "label": "Country",
+            "placeholder": "Start typing..."
+          },
+          "cancel": "Cancel",
+          "ok": "Confirm"
+        }
+      }
+    ],
+    "propertyStatus": {
+      "label": "Residential Status",
+      "placeholder": "Please select",
+      "values": {
+        "0": "Please select",
+        "2": "Own this property",
+        "6": "Renting",
+        "7": "Social house",
+        "8": "Living with parents"
+      }
+    },
+    "overallTurnOver": {
+      "label": "Total annual revenue (sales)"
+    },
+    "netProfit": {
+      "label": "Annual net profit"
+    },
+    "annualSalary": {
+      "label": "Annual drawings"
+    },
+    "givingYourConsentContent": {
+      "company": {
+        "label": "Giving your consent",
+        "tooltip": {
+          "content": "in submitting your application you agree to be the personal guarantor for the company loan. This means that if your company defaults on the loan you may be held personally liable and required to make payment from your personal assets.",
+          "close": "Close"
+        }
+      },
+      "person": {
+        "label": "Giving your consent",
+        "tooltip": {
+          "content": "Check the checkbox for giving your consent to its content.",
+          "close": "Close"
+        }
+      }
+    }
+  },
+  "loanee": {
+    "custom": {
+      "primarySIC": {
+        "label": "Choose your primary SIC ",
+        "placeholder": "Please select ..."
+      },
+      "annualRevenue": {
+        "LIMITED_COMPANY": {
+          "placeholder": "Please select",
+          "label": "Annual turnover ({{system.currencySign}})",
+          "subLabelTop": "Your company must have an annual turnover between £15,000 to £43,000,000",
+          "tooltip": {
+            "content": "This should be your most recent total annual revenue (sales, turnover and any other income). Minimum {{system.currencySign}}{{widgetsConfig.loanee.annualRevenue.LIMITED_COMPANY.validationRules, validationRule:min}} and Maximum {{system.currencySign}}{{widgetsConfig.loanee.annualRevenue.LIMITED_COMPANY.validationRules, validationRule:max}}",
+            "close": "Close"
+          },
+          "values": {
+            "0-100K": "0-100K",
+            "100K-250K": "100K-250K",
+            "250K-500K": "250K-500K",
+            "500K-1M": "500K-1M",
+            "1M-2M": "1M-2M",
+            "2M-6.5M": "2M-6.5M",
+            "6.5M-10M": "6.5M-10M",
+            "10M-50M": "10M-50M",
+            "50M+": "50M+"
+          }
+        },
+        "SOLE_TRADER": {
+          "placeholder": "Please select",
+          "label": "Total annual revenue (sales)",
+          "tooltip": {
+            "content": "Commonly referred to as sales. This is the total amount of money your business has received over the past year before any costs and expenses have been deducted. Usually found at the top of your profit & loss statement for the financial year.",
+            "close": "Close"
+          },
+          "values": {
+            "0-100K": "0-100K",
+            "100K-250K": "100K-250K",
+            "250K-500K": "250K-500K",
+            "500K-1M": "500K-1M",
+            "1M-2M": "1M-2M",
+            "2M-6.5M": "2M-6.5M",
+            "6.5M-10M": "6.5M-10M",
+            "10M-50M": "10M-50M",
+            "50M+": "50M+"
+          }
+        }
+      },
+      "cashPercentage": {
+        "label": "What percentage of your business income is cash?",
+        "placeholder": "Start typing..."
+      },
+      "sourceOfIncome": {
+        "label": "What is your main income source?",
+        "placeholder": "Please select"
+      },
+      "suppliersCountries": {
+        "label": "Which countries outside of the UK?",
+        "placeholder": "Start typing..."
+      },
+      "tradingName": {
+        "label": "Trading name",
+        "placeholder": "Start typing..."
+      },
+      "tradingCountries": {
+        "label": "Which countries outside of the UK?",
+        "placeholder": "Start typing..."
+      },
+      "tradingAddress": {
+        "selectAddress": "Select Address",
+        "subLabelTop": "Please enter your business postcode in the field below to search for your address",
+        "postcode": {
+          "label": "Trading address",
+          "placeholder": "Start typing..."
+        },
+        "enterAddressManually": "Enter manually",
+        "list": {
+          "notFound": "Not found",
+          "confirm": "Confirm"
+        },
+        "confirmedAddress": {
+          "label": "Trading Address"
+        },
+        "manualAddress": {
+          "ok": "Confirm",
+          "cancel": "Cancel",
+          "line1": {
+            "label": "First line of address",
+            "placeholder": "Start typing..."
+          },
+          "line2": {
+            "label": "Second line of address",
+            "placeholder": "Start typing..."
+          },
+          "line3": {
+            "label": "Third line of address",
+            "placeholder": "Start typing..."
+          },
+          "town": {
+            "label": "City",
+            "placeholder": "Start typing..."
+          },
+          "postcode": {
+            "label": "Postcode",
+            "placeholder": "Start typing..."
+          },
+          "country": {
+            "label": "Country",
+            "placeholder": "Start typing..."
+          }
+        }
+      },
+      "businessPhone": {
+        "label": "Main business phone number",
+        "placeholder": "Start typing..."
+      },
+      "balanceSheet": {
+        "LIMITED_COMPANY": {
+          "label": "What is the value of your balance sheet?",
+          "placeholder": "Please select",
+          "values": {
+            "0-2M": "0-2M",
+            "2M-3.26M": "2M-3.26M",
+            "3.26M-10M": "3.26M-10M",
+            "10M-45M": "10M-45M",
+            "45M+": "45M+"
+          }
+        },
+        "SOLE_TRADER": {
+          "label": "Balance sheet",
+          "placeholder": "Please select",
+          "values": {
+            "0-2M": "0-2M",
+            "2M-3.26M": "2M-3.26M",
+            "3.26M-10M": "3.26M-10M",
+            "10M-45M": "10M-45M",
+            "45M+": "45M+"
+          }
+        }
+      },
+      "numberOfEmployees": {
+        "LIMITED_COMPANY": {
+          "label": "Number of employees",
+          "placeholder": "Please select",
+          "values": {
+            "0-5": "0-5",
+            "5-10": "5-10",
+            "10-25": "10-25",
+            "25-50": "25-50",
+            "51-250": "51-250",
+            "250+": "250+"
+          }
+        },
+        "SOLE_TRADER": {
+          "label": "Number of employees",
+          "placeholder": "Please select",
+          "values": {
+            "0-5": "0-5",
+            "5-10": "5-10",
+            "10-25": "10-25",
+            "25-50": "25-50",
+            "51-250": "51-250",
+            "250+": "250+"
+          }
+        }
+      }
+    },
+    "typeOfBusiness": {
+      "label": "Type of business",
+      "placeholder": "Please select",
+      "tooltip": {
+        "content": "Please choose the type of your business",
+        "close": "Close"
+      },
+      "values": {
+        "LIMITED_COMPANY": "Limited Company",
+        "SOLE_TRADER": "Sole Trader"
+      }
+    },
+    "name": {
+      "placeholder": "Start typing...",
+      "label": "Business or Trading name",
+      "tooltip": {
+        "content": "If you do not have a trading name put your first and last name.",
+        "close": "Close"
+      }
+    },
+    "companyNameNumber": {
+      "enterManually": "Enter manually",
+      "buttonLabelClear": "Clear",
+      "label": "Company name or number",
+      "subLabelTop": "You dont need to enter both, either is fine",
+      "placeholder": "Start typing...",
+      "name": {
+        "label": "Business or Trading name"
+      },
+      "manualNameNumber": {
+        "title": "Please enter company details",
+        "name": {
+          "label": "Company name"
+        },
+        "identifier": {
+          "label": "Company number"
+        },
+        "confirmButtonLabel": "Confirm",
+        "backButtonLabel": "Back"
+      }
+    },
+    "businessAddressSelector": {
+      "label": "Is your trading address the same as your home address?",
+      "button1": "Yes",
+      "button2": "No"
+    },
+    "tradingActivity": {
+      "label": "What is your primary trading activity?",
+      "placeholder": "e.g. Cleaning Services, Building Construction",
+      "values": {
+        "BUILD_CONST": "Building Construction",
+        "REAL_ESTATE": "Real Estate - including property development / investment / letting / management on fee or contract basis / estate agency",
+        "OTHER_CONST": "Other Construction",
+        "AGRICULTURE_FORESTRY_FISHING": "Agriculture, Forestry or Fishing",
+        "MINING_QUARRYING": "Mining & Quarrying",
+        "MANUFACTURING_CHEMICAL_PRODUCTS": "Manufacturing - chemicals / fuels / gases / petrol / oil / mineral products",
+        "MANUFACTURING_AMMUNITION": "Manufacturing of explosives / explosive products / weapons and ammunition",
+        "OTHER_MANUFACTURING": "Other Manufacturing",
+        "JEWELLERY_RETAIL": "Jewellery - manufacture / wholesale and retail",
+        "POWER_SUPPLY": "Power supply - eg electricity / gas / steam",
+        "AIRCONDITIONING_SUPPLY": "Air Conditioning supply",
+        "SCRAP_METAL": "Scrap metal",
+        "WASTE_MANAGEMENT": "Waste management",
+        "WATER_AND_SEWERAGE": "Water and sewerage supply / activities",
+        "FINANCIAL_ACTIVITIES": "Financial/ insurance / wealth management activities",
+        "PAWN_BUSINESS": "Pawn Brokers / Money Service Business",
+        "FOOD_WHOLESALE": "Food Wholesale",
+        "CLOTHES_WHOLESALE": "Clothes Wholesale",
+        "OTHER_WHOLESALE": "Other Wholesale",
+        "FOOD_RETAIL": "Food Retail",
+        "CLOTHES_RETAIL": "Clothes Retail",
+        "OTHER_RETAIL": "Other Retail",
+        "MOTOR_SALES_REPAIR": "Motor Vehicles - sale or repair",
+        "TAXI_SERVICES": "Taxi services",
+        "SHIPPING": "Shipping",
+        "TRANSPORTATION_STORAGE": "Transportation & Storage",
+        "ACCOMMODATION": "Accommodation - including B&B / hotels / campsites",
+        "PUBS": "Pubs",
+        "NIGHTCLUB": "Nightclub",
+        "RESTAURANT": "Restaurant",
+        "TAKEAWAY": "Takeaway",
+        "TANNING_SALONS": "Tanning Salons",
+        "IT": "IT",
+        "MEDIA_COMMUNICATIONS": "Media & Communications",
+        "ARCHITECTURE_ACTIVITIES": "Architecture / planning activities",
+        "ACCOUNTANTS_BOOKKEEPING": "Accountants / bookkeeping",
+        "SOLICITORS": "Solicitors",
+        "SCIENTIFIC_RESEARCH": "Scientific research",
+        "OTHER_PROFESSIONAL_SERVICES": "Other professional services",
+        "RENTING_NON_PROPERTY_GOODS": "Renting / leasing of non property goods",
+        "RECRUITMENT_AGENCIES": "Recruitment agencies",
+        "CLEANING_SERVICES": "Cleaning services",
+        "OTHER_SUPPORT_SERVICES": "Other support services",
+        "TRAVEL_TOUR": "Travel agents / tour operators",
+        "EDUCATIONAL_SERVICES": "Educational services",
+        "NURSING_RESIDENTIAL_HOME": "Nursing / Residential Home",
+        "GP_DENTAL_VETS_PRACTICE": "GP / Dental / Vets practice",
+        "OPTICIANS_PHARMACISTS": "Opticians / Pharmacists",
+        "CHILD_DAY_CARE": "Child day care activities",
+        "DOMICILIARY_SOCIAL_CARE": "Domiciliary / Social care",
+        "OTHER_HUMAN_HEALTH_ACT": "Other human health activities",
+        "GAMBLING_ACTIVITIES": "Gambling / betting activities",
+        "ADULT_ENTERTAINMENT": "Adult entertainment",
+        "ART_ACTIVITIES": "Art activities",
+        "RECREATION_ACTIVITIES": "Recreation activities",
+        "ENTERTAINMENT_ACTIVITIES": "Entertainment activities",
+        "HAIR_BEAUTY_SALON": "Hair & / or beauty salon",
+        "MEMBERSHIP_ORG": "Membership organisation - including religious / political",
+        "FUNERAL_DIRECTORS": "Funeral directors",
+        "REPAIRERS": "Repairers",
+        "OTHER_SERVICE_ACTIVITIES": "Other service activities",
+        "FRANCHISE": "Franchise",
+        "OTHER_NOT_LISTED": "Other activity not listed"
+      }
+    },
+    "annualNetProfitBeforeTax": {
+      "LIMITED_COMPANY": {
+        "placeholder": "Start typing...",
+        "label": "Annual net profit before tax",
+        "tooltip": {
+          "content": "This should be your most recent annual net profit before tax.",
+          "close": "Close"
+        }
+      },
+      "SOLE_TRADER": {
+        "placeholder": "Start typing...",
+        "label": "Annual net profit",
+        "tooltip": {
+          "content": "This is the money your business has made after costs and expenses have been deducted. Usually found at the bottom of your profit and loss statement.",
+          "close": "Close"
+        }
+      }
+    },
+    "monthlyDebtRepayments": {
+      "LIMITED_COMPANY": {
+        "placeholder": "Start typing...",
+        "label": "Monthly debt repayments",
+        "tooltip": {
+          "content": "This should be the total current monthly repayments. This is for any business debts, including loans, mortgages and leases.",
+          "close": "Close"
+        }
+      },
+      "SOLE_TRADER": {
+        "placeholder": "Start typing...",
+        "label": "Monthly business debt repayments",
+        "tooltip": {
+          "content": "This is the total amount of money the business pays out monthly for any business debts. Business debts include but are not limited to loans, mortgages, HP and leases. Check against your bank statements if in doubt.",
+          "close": "Close"
+        }
+      }
+    },
+    "minAnnualDirectorDividends": {
+      "label": "Minimum annual director dividends",
+      "placeholder": "Start typing...",
+      "tooltip": {
+        "content": "This should be the total annual minimum dividends that are required by directors of the business for living expenses. This should exclude any director salaries.",
+        "close": "Close"
+      }
+    },
+    "annualDrawings": {
+      "label": "Annual drawings",
+      "placeholder": "Start typing...",
+      "tooltip": {
+        "content": "The total amount of money withdrawn from the business for personal reasons. Drawings include but are not limited to contributions to pension, national insurance, tax, living costs e.g. food and personal mortgage or rent.",
+        "close": "Close"
+      }
+    },
+    "businessAddress": {
+      "LIMITED_COMPANY": {
+        "postcode": {
+          "label": "Business postcode",
+          "tooltip": {
+            "content": "Just tell us your postcode and select Find address. Then select your address from the list.",
+            "close": "Close"
+          }
+        },
+        "title": "Business Address",
+        "label": "Address",
+        "confirmedAddress": {
+          "label": "Business Address",
+          "tooltip": {
+            "content": "  For changing the address, please select &nbsp;<svg class=\"icon-action\" tabindex=\"0\" xmlns=\"http://www.w3.org/2000/svg\" width=\"16.906\" height=\"17\" viewBox=\"0 0 16.906 17\"><g fill=\"#6e6e6e\"><path d=\"M.567 3.589h.661l1.605 12.844A.544.544 0 0 0 3.4 17h10.2a.544.544 0 0 0 .567-.567l1.511-12.844h.661a.544.544 0 0 0 .567-.567.609.609 0 0 0-.567-.567h-4.628V.567A.544.544 0 0 0 11.144 0H5.761a.609.609 0 0 0-.567.567v1.794H.567A.81.81 0 0 0 0 3.022a.609.609 0 0 0 .567.567zm5.855-2.361h4.25v1.228h-4.25zm8.122 2.361l-1.416 12.183H3.967L2.456 3.589z\"></path><path d=\"M6.542 14.488a.64.64 0 0 0 .667-.667V5.377a.667.667 0 0 0-1.333 0v8.444a.64.64 0 0 0 .666.667zM10.458 14.488a.64.64 0 0 0 .667-.667V5.377a.667.667 0 0 0-1.333 0v8.444a.717.717 0 0 0 .666.667z\"></path></g></svg> icon.",
+            "close": "Close"
+          }
+        },
+        "placeholder": "Start typing...",
+        "lookUpAddress": "Look up address",
+        "selectAddress": "Select Address",
+        "enterAddressManually": "Enter Address Manually",
+        "list": {
+          "notFound": "Not Found",
+          "confirm": "Confirm"
+        },
+        "resetAddress": "Clear address",
+        "manualAddress": {
+          "line1": {
+            "label": "First line of address",
+            "placeholder": "Start typing..."
+          },
+          "line2": {
+            "label": "Second line of address",
+            "placeholder": "Start typing..."
+          },
+          "line3": {
+            "label": "Third line of address",
+            "placeholder": "Start typing..."
+          },
+          "town": {
+            "label": "City",
+            "placeholder": "Start typing..."
+          },
+          "postcode": {
+            "label": "Postcode",
+            "placeholder": "Start typing..."
+          },
+          "country": {
+            "label": "Country",
+            "placeholder": "Start typing..."
+          },
+          "cancel": "Cancel",
+          "ok": "Confirm"
+        }
+      },
+      "SOLE_TRADER": {
+        "postcode": {
+          "label": "Trading postcode",
+          "tooltip": {
+            "content": "Just tell us your postcode and select Find address. Then select your address from the list.",
+            "close": "Close"
+          }
+        },
+        "title": "Trading Address",
+        "label": "Address",
+        "confirmedAddress": {
+          "label": "Trading Address",
+          "tooltip": {
+            "content": " For changing the address, please select &nbsp; <svg class=\"icon-action\" tabindex=\"0\" xmlns=\"http://www.w3.org/2000/svg\" width=\"16.906\" height=\"17\" viewBox=\"0 0 16.906 17\"><g fill=\"#6e6e6e\"><path d=\"M.567 3.589h.661l1.605 12.844A.544.544 0 0 0 3.4 17h10.2a.544.544 0 0 0 .567-.567l1.511-12.844h.661a.544.544 0 0 0 .567-.567.609.609 0 0 0-.567-.567h-4.628V.567A.544.544 0 0 0 11.144 0H5.761a.609.609 0 0 0-.567.567v1.794H.567A.81.81 0 0 0 0 3.022a.609.609 0 0 0 .567.567zm5.855-2.361h4.25v1.228h-4.25zm8.122 2.361l-1.416 12.183H3.967L2.456 3.589z\"></path><path d=\"M6.542 14.488a.64.64 0 0 0 .667-.667V5.377a.667.667 0 0 0-1.333 0v8.444a.64.64 0 0 0 .666.667zM10.458 14.488a.64.64 0 0 0 .667-.667V5.377a.667.667 0 0 0-1.333 0v8.444a.717.717 0 0 0 .666.667z\"></path></g></svg> icon.",
+            "close": "Close"
+          }
+        },
+        "placeholder": "Start typing...",
+        "lookUpAddress": "Look up address",
+        "selectAddress": "Select Address",
+        "enterAddressManually": "Enter Address Manually",
+        "list": {
+          "notFound": "Not Found",
+          "confirm": "Confirm"
+        },
+        "resetAddress": "Clear address",
+        "manualAddress": {
+          "line1": {
+            "label": "First line of address",
+            "placeholder": "Start typing..."
+          },
+          "line2": {
+            "label": "Second line of address",
+            "placeholder": "Start typing..."
+          },
+          "line3": {
+            "label": "Third line of address",
+            "placeholder": "Start typing..."
+          },
+          "town": {
+            "label": "City",
+            "placeholder": "Start typing..."
+          },
+          "postcode": {
+            "label": "Postcode",
+            "placeholder": "Start typing..."
+          },
+          "country": {
+            "label": "Country",
+            "placeholder": "Start typing..."
+          },
+          "cancel": "Cancel",
+          "ok": "Confirm"
+        }
+      }
+    },
+    "tradingAddress": {
+      "label": "Trading postcode",
+      "confirmedAddress": {
+        "label": "Trading address"
+      }
+    }
+  },
+  "quotingTool": {
+    "buttonLabel": {
+      "quote": "Get Quote",
+      "decision": "Finish"
+    },
+    "popupTitle": "Quote Information",
+    "greeting": "Good News! You could borrow",
+    "loading": "Loading...",
+    "subGreeting": "Thanks for asking for a quote from us! Here are your personal fee quote details:",
+    "amount": "Amount",
+    "interestRate": "Interest Rate",
+    "monthlyPayment": "Monthly Payment",
+    "setupFee": "Setup Fee",
+    "term": "Term",
+    "type": "Type"
+  },
+  "decision": {
+    "buttonLabel": {
+      "quote": "Get Quote",
+      "decision": "Finish"
+    },
+    "popupTitle": "Quote Information",
+    "greeting": "Good News! You could borrow",
+    "loading": "Loading...",
+    "subGreeting": "Thanks for asking for a quote from us! Here are your personal fee quote details:",
+    "amount": "Amount",
+    "interestRate": "Interest Rate",
+    "monthlyPayment": "Monthly Payment",
+    "setupFee": "Setup Fee",
+    "term": "Term",
+    "type": "Type",
+    "invalidMarketplaceItems": "At least one account needs to be linked/upload documents",
+    "review": {
+      "label": "We are reviewing your application",
+      "text": "Thank you for applying for a loan with beBank. We are reviewing your application and will get back to you as soon as possible.<br /> If you have any questions please give us a call on <a href=\"tel:1111 111 1111\">1111 111 1111</a> or contact us at <a href=\"mailto:support@bebank.com\">support@bebank.com</a>.",
+      "button": "Done"
+    }
+  },
+  "broker": {
+    "message": {
+      "label": "Dear Broker,",
+      "text1": "You are filling the loan application forms for your customer, {{val}}.",
+      "text2": "For any assistance, please contact us",
+      "buttonLabel": "Save & Finish later"
+    },
+    "addAccounts": {
+      "title": "Add accounts",
+      "text": "You can either send the application to your customer to link/upload account details, or upload details on their behalf below. Remember that we need at least one source of bank account/VAT data, and the more sources we receive the more likely we are to be able to accurately assess your application and provide a loan offer"
+    },
+    "sendToCustomer": {
+      "title": "Send to customer",
+      "text": "Choose this option and your customer will be able to link their account and/or upload their VAT data to enable us to rapidly assess their application and provide an automated decision in most cases.",
+      "line1": "When customer link their account and/or upload VAT data it enables us to rapidly assess their application and provide an automated decision, in most cases.",
+      "line2": "Click on the ‘Finish later’ button, which will close this tab and present the previous one. On that tab, click on 'Send' to send the application to your customer for upload/link the data.",
+      "send": "send application to customer",
+      "button": {
+        "label": "Send"
+      }
+    },
+    "meta": {
+      "consents": {
+        "termsAndConditions": "I am a Broker and can confirm that: <p /> I hold authorization from the Applicant to complete a loan application on behalf of the Applicant <p/> I have disclosed the Terms & Conditions of the loan to the Applicant, including the requirement to provide a guarantee, and explained the fee structure as well as disclosing commission paid to me as Broker and the Applicant has confirmed their understanding and consented to the Terms & Conditions. <br/> The Applicant has confirmed that they hold authorization from the other officers, financial partners and beneficial owners to consent to the searches against them as individuals and use of the information as indicated in the Terms & Conditions.",
+        "authorizedDirector": "I can confirm that the Applicant is a director of the business and I have explained to them that they will be required to provide a personal guarantee of the company’s loan and that they may have to pay if the company is not able to."
+      },
+      "communicationOptions": "{{system.vendorName}} would like to keep you informed by letter, phone, email and text message about products, services and offers that we believe may be of interest to you. If you do not wish us to contact you for these purposes, please place a cross in the box.",
+      "keepInformedParagraph": "{{system.vendorName}} will not share your information with third parties for their own marketing purposes.",
+      "pleaseNoteParagraph": "Please note: We do not carry out full credit checks. We will carry out a soft credit search on you. This will not affect your credit score, and can not be seen by other lenders."
+    }
+  },
+  "loanRequest": {
+    "amountRequested": {
+      "LIMITED_COMPANY": {
+        "label": "Requested amount"
+      },
+      "SOLE_TRADER": {
+        "label": "Requested amount"
+      }
+    },
+    "termRequested": {
+      "LIMITED_COMPANY": {
+        "label": "Requested term"
+      },
+      "SOLE_TRADER": {
+        "label": "Requested term"
+      }
+    },
+    "amount": {
+      "LIMITED_COMPANY": {
+        "label": "Amount"
+      },
+      "SOLE_TRADER": {
+        "label": "Amount"
+      }
+    },
+    "term": {
+      "LIMITED_COMPANY": {
+        "label": "Loan term"
+      },
+      "SOLE_TRADER": {
+        "label": "Loan term"
+      }
+    },
+    "separateTerm": {
+      "label": "Loan term",
+      "placeholder": ""
+    },
+    "separateAmount": {
+      "label": "Amount",
+      "placeholder": ""
+    },
+    "monthlyAverageRepayment": "Monthly average repayment",
+    "content": "Please select the loan amount and term you wish to apply for. An arrangement fee and broker fee if applicable can either be paid up  front, or added to the loan amount paid to you.  Our fees are available for <a rel=\"noopener noreferrer\" href=\"/rates/\" target=\"_blank\">review</a>. Interest is charged on the full loan amount, including fees if added to the loan amount.",
+    "loanPurpose": {
+      "LIMITED_COMPANY": {
+        "label": "What is the purpose of this loan?",
+        "placeholder": "Please select",
+        "values": {
+          "WORK_CAPITAL": "Working capital",
+          "EXPANSION": "Expansion",
+          "EQUIPMENT": "Plant/machinery/equipment/vehicle",
+          "STOCK_PURCHASE": "Stock purchase",
+          "STAFF_SALARY": "Staff salaries",
+          "PAY_HMRC_BILL": "Pay HMRC bill",
+          "GEN_BUS_EXPENSE": "General business expenditure",
+          "REFINANCE_EXIST_DEBT": "Refinance existing debt",
+          "REFINANCE_VENDOR_LOAN": "Refinance {{system.vendorName}} loan",
+          "BUY_EQUITY_STAKE_IN_BUS": "Buy equity stake in a business",
+          "SHARE_BUY_BACK": "Share buy back",
+          "OTHER": "Other",
+          "PROFESSIONAL_INSURANCE_FEES": "Professional/insurance fees",
+          "PLANT_MACHINERY_EQUIPMENT_VEHICLE": "Plant/machinery/equipment/vehicle"
+        }
+      },
+      "SOLE_TRADER": {
+        "label": "What is the purpose of this loan?",
+        "placeholder": "Please select",
+        "values": {
+          "WORK_CAPITAL": "Working capital",
+          "EXPANSION": "Business expansion",
+          "EQUIPMENT": "Plant/machinery/equipment/vehicle",
+          "STOCK_PURCHASE": "Stock purchase",
+          "STAFF_SALARY": "Staff salaries",
+          "PAY_HMRC_BILL": "Pay HMRC bill",
+          "GEN_BUS_EXPENSE": "General business expenditure",
+          "REFINANCE_EXIST_DEBT": "Refinance existing business debt",
+          "REFINANCE_VENDOR_LOAN": "Refinance existing {{system.vendorName}} loan",
+          "BUY_EQUITY_STAKE_IN_BUS": "Buy equity stake in a business"
+        }
+      }
+    },
+    "otherLoanPurpose": {
+      "label": "Other purpose of loan",
+      "placeholder": "Start typing..."
+    },
+    "loaneeCompany": {
+      "label": "Company name / number",
+      "placeholder": "Start typing...",
+      "tooltip": {
+        "content": "Company name or number",
+        "close": "Close"
+      }
+    }
+  },
+  "login": {
+    "title": "Welcome",
+    "subtitle": "Log into your account and return to any application within 30 days.*",
+    "label": "Login",
+    "button": "Login",
+    "username": {
+      "label": "Email address",
+      "placeholder": "Start typing..."
+    },
+    "password": {
+      "label": "Password",
+      "placeholder": "Start typing..."
+    },
+    "forgotten": "Forgotten password",
+    "signup": "Sign ups",
+    "ez1IsDown": "Sorry, we are performing maintenance work at this moment and this service is not available. Please try again later."
+  },
+  "forgotPassword": {
+    "title": "Password recover",
+    "titleMailSent": "Check your mailbox",
+    "label": "",
+    "button": "Continue",
+    "email": {
+      "label": "Email address",
+      "placeholder": "Start typing..."
+    },
+    "mailSent": "Mail will be sent shortly to your mailbox to reset process",
+    "finish": "Return to ...",
+    "create-password-label": "Create Password",
+    "create-password-text": "Enter your email address here and you'll get an email to complete the reset process",
+    "ez1IsDown": "Sorry, we are performing maintenance work at this moment and this service is not available. Please try again later."
+  },
+  "createPassword": {
+    "label": "Please set your new password",
+    "button": "Continue",
+    "password": {
+      "label": "New password",
+      "placeholder": "Start typing..."
+    },
+    "ez1IsDown": "Sorry, we are performing maintenance work at this moment and this service is not available. Please try again later."
+  },
+  "verifyEmail": {
+    "pending": "Verifying email...",
+    "verified": "Thank you, your email is confirmed"
+  },
+  "officers": {
+    "shareholders": {
+      "label": "Company shareholders",
+      "prologue": "We need some details on company shareholders who own 25% or more of the business so that we can carry out some basic checks on the owners of the business. We will carry out a soft credit check that isn't visible to anyone but them. Please ensure you have their permission for this.",
+      "me": "me",
+      "isActiveTitle": "Set shareholder as active/inactive",
+      "addShareHolder": "Add shareholder",
+      "editShareHolder": "Edit shareholder",
+      "noDataMessage": "No shareholder entered yet",
+      "fetching": "Fetching shareholders... please wait",
+      "loading": "Loading...",
+      "next": "Next"
+    },
+    "tableHeaders": {
+      "name": "Name",
+      "birthDate": "Date of birth",
+      "address": "Address",
+      "email": "Email",
+      "applicant": "Applicant"
+    },
+    "personDetails": {
+      "confirm": "Confirm",
+      "isApplicant": "This is me",
+      "isInactive": "Not active or less than 25% holding of the company",
+      "birthDate": {
+        "label": "Date of birth",
+        "value": "{{date, D-MMM-YYYY}}",
+        "placeholder": "Choose date"
+      },
+      "email": {
+        "label": "Email address",
+        "placeholder": "Start typing...",
+        "tooltip": {
+          "content": "<p>We will use your email address to get in touch with you regarding your application or with important information about your {{system.vendorName}} account.</p><p>Your email address will also be your username when logging in to your account in future.</p>",
+          "close": "Close"
+        }
+      },
+      "fullName": {
+        "firstName": {
+          "label": "First name",
+          "placeholder": "Start typing..."
+        },
+        "lastName": {
+          "label": "Surname",
+          "placeholder": "Start typing..."
+        },
+        "middleName": {
+          "label": "Middle name(s)",
+          "placeholder": "Start typing..."
+        }
+      },
+      "address": {
+        "postcode": {
+          "label": "Postcode",
+          "placeholder": "Start typing...",
+          "tooltip": {
+            "content": "Just tell us your postcode and select Find address. Then select your address from the list.",
+            "close": "Close"
+          }
+        },
+        "title": "Home Address",
+        "label": "Address",
+        "confirmedAddress": {
+          "label": "Address",
+          "tooltip": {
+            "content": " For changing the address, please select &nbsp; <svg class=\"icon-action\" tabindex=\"0\" xmlns=\"http://www.w3.org/2000/svg\" width=\"16.906\" height=\"17\" viewBox=\"0 0 16.906 17\"><g fill=\"#6e6e6e\"><path d=\"M.567 3.589h.661l1.605 12.844A.544.544 0 0 0 3.4 17h10.2a.544.544 0 0 0 .567-.567l1.511-12.844h.661a.544.544 0 0 0 .567-.567.609.609 0 0 0-.567-.567h-4.628V.567A.544.544 0 0 0 11.144 0H5.761a.609.609 0 0 0-.567.567v1.794H.567A.81.81 0 0 0 0 3.022a.609.609 0 0 0 .567.567zm5.855-2.361h4.25v1.228h-4.25zm8.122 2.361l-1.416 12.183H3.967L2.456 3.589z\"></path><path d=\"M6.542 14.488a.64.64 0 0 0 .667-.667V5.377a.667.667 0 0 0-1.333 0v8.444a.64.64 0 0 0 .666.667zM10.458 14.488a.64.64 0 0 0 .667-.667V5.377a.667.667 0 0 0-1.333 0v8.444a.717.717 0 0 0 .666.667z\"></path></g></svg> icon.",
+            "close": "Close"
+          }
+        },
+        "lookUpAddress": "Look up address",
+        "selectAddress": "Select Address",
+        "enterAddressManually": "Enter Address Manually",
+        "list": {
+          "notFound": "Not Found",
+          "confirm": "Confirm"
+        },
+        "resetAddress": "Clear address",
+        "manualAddress": {
+          "line1": {
+            "label": "First line of address",
+            "placeholder": "Start typing..."
+          },
+          "line2": {
+            "label": "Second line of address",
+            "placeholder": "Start typing..."
+          },
+          "line3": {
+            "label": "Third line of address",
+            "placeholder": "Start typing..."
+          },
+          "town": {
+            "label": "City",
+            "placeholder": "Start typing..."
+          },
+          "postcode": {
+            "label": "Postcode",
+            "placeholder": "Start typing..."
+          },
+          "country": {
+            "label": "Country",
+            "placeholder": "Start typing..."
+          },
+          "cancel": "Cancel",
+          "ok": "Confirm"
+        }
+      }
+    }
+  },
+  "modal": {
+    "back": "Back"
+  },
+  "uploadStatus": {
+    "count": "{{count}} item loaded",
+    "count_plural": "{{count}} items loaded"
+  },
+  "vatUpload": {
+    "inlineTitle": "VAT returns",
+    "inlineDescription": "Please upload your last 5 quarterly VAT returns in PDF format. You can download this from your online HRMC account",
+    "openBtnTitle": "VAT returns",
+    "openBtnTitle2": "Upload",
+    "title": "Upload VAT returns",
+    "description": "Please upload your last 5 quarterly VAT returns in PDF format. You should have received these returns directly from HRMC for your records - you can get them from your filing agent or accountant if needed. These files need to be titled \"Printed Copy of Submitted VAT returns for your records\"",
+    "back": "Back",
+    "close": "Done",
+    "upload": {
+      "uploadMessage": "Drag single / multi file or press the select button",
+      "button": "Select file",
+      "maxSize": "Max size per file: {{value}}"
+    }
+  },
+  "vatStatement": {
+    "title": "VAT returns",
+    "subtitle": "Please upload your last 5 quarterly VAT returns. You can download this from your online HRMC account",
+    "linkAccount": {
+      "label": "Link bank statements",
+      "button": {
+        "title": "VAT returns",
+        "subtitle": "Upload"
+      }
+    },
+    "or": "or",
+    "uploadDoc": {
+      "label": "Upload VAT statements",
+      "button": {
+        "title": "VAT statements",
+        "subtitle": "Upload"
+      },
+      "back": "back",
+      "close": "close"
+    },
+    "upload": {
+      "inlineTitle": "VAT returns",
+      "inlineDescription": "Please upload your last 5 quarterly VAT returns. You can download this from your online HRMC account",
+      "openBtnTitle": "VAT returns",
+      "openBtnTitle2": "Upload",
+      "title": "Upload VAT returns",
+      "description": "Please upload your last 5 quarterly VAT returns in PDF format. You should have received these returns directly from HRMC for your records - you can get them from your filing agent or accountant if needed. These files need to be titled \"Printed Copy of Submitted VAT returns for your records\"",
+      "back": "Back",
+      "close": "Done",
+      "uploadMessage": "Drag single / multi file or press the select button",
+      "button": "Select file",
+      "maxSize": "Max size per file: {{value}}",
+      "count": "{{count}} item loaded",
+      "count_plural": "{{count}} items loaded",
+      "table": {
+        "fileNumber": "File number",
+        "fileName": "File name",
+        "fileSize": "File size",
+        "uploadTime": "Upload time"
+      }
+    }
+  },
+  "accountScoreStatement": {
+    "title": "Business bank statements",
+    "subtitle": "Please click the button below to connect directly to your business bank account. Or you can manually upload your last 3 months business bank statements (please remember to download them from your online banking portal in csv format)",
+    "linkAccount": {
+      "label": "Link bank statements",
+      "button": {
+        "title": "Bank account",
+        "subtitle": "Link"
+      }
+    },
+    "or": "or",
+    "uploadDoc": {
+      "label": "Upload bank statements",
+      "button": {
+        "title": "Bank statements",
+        "subtitle": "Upload"
+      },
+      "back": "back",
+      "close": "close"
+    },
+    "upload": {
+      "inlineTitle": "Bank statements",
+      "inlineDescription": "Please upload your last 3 months of company bank statements, preferably in CSV format. You can export this file from your online bank account",
+      "openBtnTitle": "Bank  statements",
+      "openBtnTitle2": "Upload",
+      "title": "Upload bank statements",
+      "description": "Please upload your last 3 months of company bank statements, preferably in CSV format. You can export this file from your online bank account",
+      "back": "Back",
+      "close": "Done",
+      "uploadMessage": "Drag or click to upload bank statements",
+      "button": "Select file",
+      "maxSize": "Max size per file: {{value}}",
+      "count": "{{count}} item loaded",
+      "count_plural": "{{count}} items loaded",
+      "table": {
+        "fileNumber": "File number",
+        "fileName": "File name",
+        "fileSize": "File size",
+        "uploadTime": "Upload time"
+      }
+    },
+    "linkAccountDetails": {
+      "title": "Bank account linking",
+      "subtitle": "We use data from your business bank account which contributes to our evaluation of your business. Please select your bank and login to your account to consent to sharing this information in a secure way using Open Banking. You will be able to manage who has access to your data and revoke this access at any time at the consents.online site. We do not record or store your credentials.",
+      "list": {
+        "label": "Other Banks",
+        "placeholder": "Please select"
+      },
+      "subAccounts": {
+        "label": "Select Account Type",
+        "placeholder": "Please select"
+      },
+      "buttons": {
+        "cancel": "Cancel",
+        "done": "Done"
+      },
+      "confirmationPopup": {
+        "label": "Link bank account",
+        "subtitle": "Please note that:",
+        "callToAction": "Please click Next to link your bank account. This can take around 30 seconds",
+        "button": {
+          "label": "next"
+        },
+        "securityImageProtection": "Protecting your data is our top priority. We are using the highest level of encryption. We never see, have access, or store any of your passwords."
+      },
+      "errorMessage": "Bank account cannot be linked at the moment. Please contact our support"
+    }
+  },
+  "bankAccountStatement": {
+    "title": "Business bank statements",
+    "subtitle": "Please click the button below to connect directly to your business bank account. Or you can manually upload your last 3 months business bank statements (please remember to download them from your online banking portal in csv format)",
+    "linkAccount": {
+      "label": "Link bank statements",
+      "button": {
+        "title": "Bank account",
+        "subtitle": "Link"
+      }
+    },
+    "or": "or",
+    "uploadDoc": {
+      "label": "Upload bank statements",
+      "button": {
+        "title": "Bank statements",
+        "subtitle": "Upload"
+      },
+      "back": "back",
+      "close": "close"
+    },
+    "upload": {
+      "inlineTitle": "Bank statements",
+      "inlineDescription": "Please upload your last 3 months of company bank statements, preferably in CSV format. You can export this file from your online bank account",
+      "openBtnTitle": "Bank  statements",
+      "openBtnTitle2": "Upload",
+      "title": "Upload bank statements",
+      "description": "Please upload your last 3 months of company bank statements, preferably in CSV format. You can export this file from your online bank account",
+      "back": "Back",
+      "close": "Done",
+      "upload": {
+        "uploadMessage": "Drag or click to upload bank statements",
+        "button": "Select file",
+        "maxSize": "Max size per file: {{value}}"
+      },
+      "count": "{{count}} item loaded",
+      "count_plural": "{{count}} items loaded"
+    },
+    "linkAccountDetails": {
+      "title": "Select your bank and account type",
+      "subtitle": "You will be directed to Yodlee who provide us information from your bank statements",
+      "list": {
+        "label": "Other Banks",
+        "placeholder": "Please select"
+      },
+      "subAccounts": {
+        "label": "Select Account Type",
+        "placeholder": "Please select"
+      },
+      "buttons": {
+        "cancel": "Cancel",
+        "link": "Link Account"
+      },
+      "confirmationPopup": {
+        "label": "Link bank account",
+        "subtitle": "Please note that:",
+        "callToAction": "Please click Next to link your bank account. This can take around 30 seconds",
+        "button": {
+          "label": "next"
+        },
+        "securityImageProtection": "Protecting your data is our top priority. We are using the highest level of encryption. We never see, have access, or store any of your passwords."
+      },
+      "errorMessage": "Bank account cannot be linked at the moment. Please contact our support"
+    }
+  },
+  "financialAccountsStatement": {
+    "title": "Financial accounts",
+    "subtitle": "Please click the button below to connect directly to your accounting software. If you don't use any accounting software, please upload your most recent company accounts including profit and loss and balance sheet",
+    "linkAccount": {
+      "label": "link financial accounts",
+      "button": {
+        "title": "Financial accounts",
+        "subtitle": "Link"
+      }
+    },
+    "or": "or",
+    "uploadDoc": {
+      "label": "Upload financial accounts",
+      "button": {
+        "title": "Financial accounts",
+        "subtitle": "Upload"
+      },
+      "back": "back",
+      "close": "close"
+    },
+    "upload": {
+      "inlineTitle": "Bank statements",
+      "inlineDescription": "Please upload any financial documents you have, such as forecasts, annual accounts, balance sheets, profit and loss statements, or cash flow statements",
+      "openBtnTitle": "Financial documents",
+      "openBtnTitle2": "Upload",
+      "title": "Upload financial documents",
+      "description": "Please upload any financial documents you have, such as forecasts, annual accounts, balance sheets, profit and loss statements, or cash flow statements",
+      "back": "Back",
+      "close": "Done",
+      "uploadMessage": "Drag or click to upload financial statements",
+      "button": "Select file",
+      "maxSize": "Max size per file: {{value}}",
+      "count": "{{count}} item loaded",
+      "count_plural": "{{count}} items loaded",
+      "table": {
+        "fileNumber": "File number",
+        "fileName": "File name",
+        "fileSize": "File size",
+        "uploadTime": "Upload time"
+      }
+    },
+    "count_plural": "{{count}} items loaded",
+    "linkAccountDetails": {
+      "title": "Please select your accounting package",
+      "subtitle": "",
+      "list": {
+        "label": "Other Financial Accounts",
+        "placeholder": "Please select"
+      },
+      "subAccounts": {
+        "label": "Select Account Type",
+        "placeholder": "Please select"
+      },
+      "buttons": {
+        "cancel": "Cancel",
+        "link": "Link Account"
+      },
+      "confirmationPopup": {
+        "label": "Link financial account",
+        "subtitle": "Please note that:",
+        "button": {
+          "label": "next"
+        },
+        "callToAction": "",
+        "securityImageProtection": "Protecting your data is our top priority. We are using the highest level of encryption. We never see, have access, or store any of your passwords."
+      },
+      "redirectionPopup": {
+        "label": "Click button to be redirected",
+        "button": {
+          "label": "redirect"
+        }
+      },
+      "errorMessage": "Financial account cannot be linked at the moment. Please contact our support"
+    }
+  },
+  "linkAccountItems": {
+    "yodlee": {
+      "listItems": [
+        "Yodlee is a third party service provider and is an entirely separate company to {{system.vendorName}}.",
+        "You will have to enter into an agreement directly with Yodlee in order to use their services. {{system.vendorName}} will not be a party to this agreement.",
+        "Yodlee will use your data in accordance with their <a href='https://yodleemoneycenter.com/apps/staticTnc.retailpv.do?tncType=newRegTnc&c=csit_key_0%3ARLMo%2B8OEr4X%2Fq%2BLXycZkRFDqlx8%3D&l=tncType' target='_blank'>terms and conditions</a>  ",
+        "Linking your company bank account via Yodlee may require you to provide...",
+        "We will only receive the last 12 months bank statements from Yodlee. Neither {{system.vendorName}} nor Yodlee will have continuous access to your account."
+      ]
+    },
+    "sage50": {
+      "listItems": [
+        "In order to link to your software, you will need: <ul style='list-style-type: circle; margin: 0;'><li>to be logged into the computer on which your accounting software is installed;</li><li>the Login User ID and Password that you use for your Sage 50 account.</li></ul>",
+        "We use a third party Validis to link the information. You will need to install their plugin which you can do by clicking next to take you to the next page.",
+        "Whilst this can take up to a few minutes now, it will help us to make a quicker decision."
+      ]
+    },
+    "sage200": {
+      "listItems": [
+        "In order to link to your software, you will need: <ul style='list-style-type: circle; margin: 0;'><li>to be logged into the computer on which your accounting software is installed;</li><li>the Login User ID and Password that you use for your Sage 200 account.</li></ul>",
+        "We use a third party Validis to link the information. You will need to install their plugin which you can do by clicking next to take you to the next page.",
+        "Whilst this can take up to a few minutes now, it will help us to make a quicker decision."
+      ]
+    },
+    "sage300": {
+      "listItems": [
+        "In order to link to your software, you will need: <ul style='list-style-type: circle; margin: 0;'><li>to be logged into the computer on which your accounting software is installed;</li><li>the SQL User ID and Password that can access the Sage 300 database you wish to upload.</li></ul>",
+        "We use a third party Validis to link the information. You will need to install their plugin which you can do by clicking next to take you to the next page.",
+        "Whilst this can take up to a few minutes now, it will help us to make a quicker decision."
+      ]
+    },
+    "xero-partner": {
+      "listItems": [
+        "In order to link to your software, you will need to input the User ID and Password that you use to login to your Xero account on the next page.",
+        "We use a third party Validis to link the information.",
+        "Whilst this can take up to a few minutes now, it will help us to make a quicker decision."
+      ]
+    },
+    "dynamics-gp": {
+      "listItems": [
+        "In order to link to your software, you will need: <ul style='list-style-type: circle; margin: 0;'><li>to be logged into the computer on which your accounting software is installed; </li><li>To know the SQL Server Instance Name, the Database Name and the Company name you wish to upload data from.</li><li>the SQL User ID and Password that can access the Microsoft Dynamics database you wish to upload.</li></ul>",
+        "We use a third party Validis to link the information. You will need to install their plugin which you can do by clicking next to take you to the next page.",
+        "Whilst this can take up to a few minutes now, it will help us to make a quicker decision."
+      ]
+    },
+    "navision": {
+      "listItems": [
+        "In order to link to your software, you will need: <ul style='list-style-type: circle; margin: 0;'><li>to be logged into the computer on which your accounting software is installed;</li><li>To know the SQL Server Instance Name and the Company name you wish to upload data from. (If you don’t know this, you will need to know the ODBC DSN for the SQL Instance where your Microsoft Dynamics GP Database is located) </li><li>the SQL User ID and Password that can access Microsoft dynamics database you wish to upload.</li></ul>",
+        "We use a third party Validis to link the information. You will need to install their plugin which you can do by clicking next to take you to the next page.",
+        "Whilst this can take up to a few minutes now, it will help us to make a quicker decision."
+      ]
+    },
+    "quickbooks": {
+      "listItems": [
+        "In order to link to your software, you will need: <ul style='list-style-type: circle; margin: 0;'><li>to be logged into the computer on which your accounting software is installed</li><li>the Login User ID and Password that you use for your Quickbooks Desktop account.</li></ul>",
+        "We use a third party Validis to link the information. You will need to install their plugin which you can do by clicking next to take you to the next page",
+        "Whilst this can take up to a few minutes now, it will help us to make a quicker decision."
+      ]
+    },
+    "quickbooks-online": {
+      "listItems": [
+        "In order to link to your software, you will need the User ID and Password that you use to login to your Quickbooks Online account on the next page.",
+        "We use a third party Validis to link the information.",
+        "Whilst this can take up to a few minutes now, it will help us to make a quicker decision."
+      ]
+    },
+    "free-agent": {
+      "subtitle": "Following the instructions below will link your FreeAgent account.",
+      "listItems": [
+        "Click Next button to be redirected to FreeAgent.",
+        "Sign up with your FreeAgent credentials",
+        "Click approve button to link account",
+        "You will be redirected back to {{system.vendorName}}"
+      ]
+    }
+  },
+  "financialDetails": "Financial Details",
+  "header": {
+    "logoLink": "/",
+    "phone": {
+      "display": "*",
+      "link": "/"
+    },
+    "login": "Login",
+    "logout": "Logout",
+    "signup": "Signup",
+    "support": {
+      "callUs": {
+        "title": "Call us",
+        "value": "0345 08 08 500"
+      },
+      "callUsNonUK": {
+        "title": "Call us (Non-UK Landlines)",
+        "value": "0044 203 402 8312"
+      },
+      "open": {
+        "title": "Open",
+        "value": {
+          "hour": "24 hours a day",
+          "day": "365 days a year"
+        }
+      }
+    }
+  },
+  "footer": {
+    "privacy": {
+      "text": "Privacy and Cookie Policy",
+      "link": "/privacy/"
+    },
+    "trademark": "<big>©</big> {{system.vendorName}} company number: 1000000. Registered address: 120 New Cavendish Street London, W1W 6XX, United Kingdom",
+    "mainContent": {
+      "text": "Your eligible deposits with Metro Bank PLC are protected up to a total of {{system.currencySign}}85,000 by the Financial Services Compensation Scheme, the UK's deposit guarantee scheme. Any deposits you hold above the limit are unlikely to be covered. For further information visit. ",
+      "link": "https://www.fscs.org.uk/"
+    },
+    "subContent": {
+      "text": "Metro Bank PLC. Registered in England and Wales. Company number: 6419578. Registered office: One Southampton Row, London, WC1B 5HA. We are authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and Prudential Regulation Authority. Metro Bank PLC is an independent UK Bank - it is not affiliated with any other bank or organisation (including the METRO newspaper or its publishers) anywhere in the world. \"Metrobank\" is the registered trademark of Metro Bank PLC.",
+      "links": {
+        "accessibility": {
+          "link": "https://www.metrobankonline.co.uk/about-us/accessibility",
+          "text": "Accessibility"
+        },
+        "legalInformation": {
+          "link": "https://www.metrobankonline.co.uk/about-us/legal-information",
+          "text": "Legal Information"
+        },
+        "privacyAndSecurity": {
+          "link": "https://www.metrobankonline.co.uk/about-us/privacy-and-security",
+          "text": "Privacy and Security"
+        },
+        "siteMap": {
+          "link": "https://www.metrobankonline.co.uk/sitemap",
+          "text": "Sitemap"
+        }
+      }
+    },
+    "copyRight": "Copyright 2019 Metro Bank. All rights reserved."
+  },
+  "last step next-button": "Complete",
+  "Next": "Next",
+  "finish": {
+    "buttonLabel": "Finish",
+    "popupTitle": "Decision Information",
+    "greeting": "Good News! You could borrow",
+    "loading": "Loading...",
+    "subGreeting": "Thanks for asking for a quote from us! Here are your personal fee quote details:"
+  },
+  "generalError": {
+    "title": "Sorry, an error has occurred",
+    "description": "Please reload the page.",
+    "button": {
+      "label": "Reload"
+    }
+  },
+  "systemLoading": "Loading...",
+  "clientMessages": {
+    "VALID_TRADING_NAME": "The trading name is not valid",
+    "BETWEEN": "Please enter an integer between :min and :max",
+    "VALID_COMPANY_NAME": "Please do NOT include any special characters such as {“@!#$%&()<>_'}",
+    "INCLUDES_COMPANY": "Please select a company from the list",
+    "LETTERS_ONLY": "Please use only letters (a-z).",
+    "DIGITS_LETTERS_ONLY": "Special characters such as @#$%^&*! are not allowed",
+    "EQUAL_PASSWORD": "Password and Confirm password does not match",
+    "VALID_UK_POSTCODE_LENGTH": "Please enter a valid postcode",
+    "VALID_UK_POSTCODE": "Please do NOT include any special characters such as {“@!#$%&()<>_'}",
+    "VALID_UK_CITY_NAME": "Please do NOT include any special characters such as {“@!#$%&()<>_'}",
+    "VALID_UK_ADDRESS": "Please do NOT include any special characters such as {“@!#$%&()<>_'}",
+    "REQUIRED_POSTCODE": "Postcode is required",
+    "MIN_AGE": "You must be at least :minAge years old to request a loan",
+    "MAX_AGE": "You must be younger than :maxAge old",
+    "FORMAT_MIN_AGE": "You must be at least :validateMinAge years old to request a loan",
+    "FORMAT_MAX_AGE": "You must be younger than :validateMaxAge old",
+    "VALID_DATE_FORMAT": "Invalid date format, use dd/mm/yyyy format",
+    "FORMAT_VALID_DATE": "You must enter valid date",
+    "INCLUDES_LTD": "The company type must be LTD",
+    "REQUIRED": "This field is required",
+    "REQUIRED_ADDRESS": "Address is required",
+    "ADDRESS": "Address is not valid, please correct it.",
+    "REQUIRED_LINE1": "Line 1 is required",
+    "REQUIRED_LINE2": "Line 2 is required",
+    "REQUIRED_LINE3": "Line 3 is required",
+    "REQUIRED_COUNTRY": "Country  is required",
+    "REQUIRED_TOWN": "City  is required",
+    "DATE": "Please select a valid date of birth",
+    "VALID_EMAIL": "This email address is not valid.",
+    "VALID_PASSWORD": "Please enter a valid password",
+    "MAX_PASSWORD": "Password length can't be longer than :max",
+    "INPUT": "Please check your input",
+    "MAX": "Please enter no more than :max characters",
+    "MIN": "Please enter at least :min characters",
+    "PHONE_VALID": "Please enter a valid {{value}} phone number",
+    "NUMERIC": "This field should contain number",
+    "MIN_AMOUNT": "Amount is below limit",
+    "MAX_AMOUNT": "Amount is above limit",
+    "ALPHA_BUSINESS_TYPE": "Please select type of business",
+    "SELECT_FROM_LIST": "Please select from list",
+    "VALID_COMPANY": "Please select from the list",
+    "SELECT_COMPANY": "Please enter a valid company name/number and select it from the list",
+    "VALID_COMPANY_TYPE": "Only UK registered limited companies are currently eligible to apply for this loan",
+    "LIMIT_OF_ALLOWED_UPLOADED_FILES": "Maximum number of files was reached. Please un-select files or contact our support.",
+    "LIMIT_OF_MAXIMUM_UPLOAD_FILE_SIZE": "<i><b>{{fileName}}</b></i> size is bigger than the {{maxSize}} allowed. Please retry with smaller file.\n",
+    "LIMIT_OF_FILE_TYPE_OF_UPLOAD_FILE": "<i><b>{{fileName}}</b></i> type is not compatible. Please upload only documents of type {{accepts}}.",
+    "UPLOAD_FILE_ALREADY_EXISTS": "<i><b>{{fileName}}</b></i> already exists",
+    "UPLOAD_FILE_SYSTEM_ERROR": "System error. Please contact support.",
+    "FILES_UPLOADED": "{{filesAmount}} files successfully uploaded",
+    "ONE_FILE_UPLOADED": "1 file successfully uploaded",
+    "AMOUNT_REQUIRED": "Please provide terms within range",
+    "VALID_NATIONALITIES": "You can select up to 2 nationalities",
+    "DIGITS": "Please provide exactly :digits digits"
+  },
+  "serverMessages": {
+    "generalErrors": {
+      "InternalServerError": "An error has occurred, please try again or contact our support",
+      "Violation": "An error has occurred, please try again or contact our support.",
+      "NotFound": "An error has occurred, please try again or contact our support.",
+      "Unauthorized": "An error has occurred, please try again or contact our support.",
+      "SetUser": "An error has occurred, please contact our support or <a href='/'>try again</a>.",
+      "UserNotFound": "User not found or incorrect password.",
+      "RightPortal": "Please login to the right <a href='{{routing.brokerUrl}}#login'>portal</a>.",
+      "UserLocked": "<p class='margin0--top margin0--bottom'>You have entered incorrect details too many times. Please check that you are using the email address and the password you provided in your application. </p><p class='margin0--top margin0--bottom'>You will be able to try again in 5 minutes.</p>",
+      "MISSING_INFORMATION": "Missing information, please edit and update"
+    },
+    "detailedErrors": {
+      "InvalidContent": "Invalid content",
+      "NotNull": "This field can't be empty",
+      "OPToken": "Verify Email cannot happen at this time. Please contact our support.",
+      "OPTokenExpired": "Verify Email cannot happen at this time. Please contact our support.",
+      "NotValid": "Set new password cannot happen at this time. Please <a href='{{pageRoutes.forgotPassword.url}}'>Reset password</a> first.",
+      "Expired": "Set new password cannot happen at this time. Please <a href='{{pageRoutes.forgotPassword.url}}'>Reset password</a> first.",
+      "PhoneNumber": "Please enter a valid {{country}} phone number",
+      "FILE_MIME_TYPE_NOT_SUPPORTED": "The file type is not compatible.",
+      "FileMimeType": "<i><b>{{name}}</b></i> type is not compatible. Please upload only documents of type {{accepts}}.",
+      "DM_INVALID_FILE_EXTENSION": "The file type is not compatible",
+      "FileMinSize": "The file size is too small",
+      "FileMaxSize": "The file size is too large",
+      "FileInvalid": "<i><b>{{name}}</b></i> may contain harmful data and cannot be uploaded.",
+      "Unique": "The email address already exists in our system. Please try to <a href='{{pageRoutes.customerLogin.url}}'>login</a>.",
+      "BirthDateWithRange": "Must be above 18 and below 118",
+      "UPDATE_EXISTS_USER_CONFLICT": "This user already exists",
+      "NotDeterminedPhotos": "Not able to determine page"
+    }
+  },
+  "pageNotFound": {
+    "title": "We've looked everywhere!",
+    "content": "Oops...we could not find the page you were looking for",
+    "button": {
+      "first": "Go to {{system.vendorName}} website",
+      "second": "Go back"
+    }
+  },
+  "modals": {
+    "shareholderDetails": {
+      "birthDate": {
+        "placeholder": "Choose date"
+      },
+      "address": {
+        "placeholder": "Start typing..."
+      },
+      "email": {
+        "placeholder": "Start typing..."
+      }
+    }
+  },
+  "generals": {
+    "subTitle": "Just 7 minutes to complete your application"
+  },
+  "linkAccount": {
+    "title": "e-Commerce accounts",
+    "description": "Link your e-Commerce services if you use one or some of these.",
+    "paypal": {
+      "title": "Link your PayPal Account",
+      "content": {
+        "description": "Please follow the instructions and click continue below to link your paypal account",
+        "slides": {
+          "1": {
+            "web": {
+              "description": "Please click the log-in button"
+            },
+            "mobile": {
+              "description": "Please click the log-in button"
+            }
+          },
+          "2": {
+            "web": {
+              "description": "Sign-in the log-in button"
+            },
+            "mobile": {
+              "description": "Sign-in the log-in button"
+            }
+          },
+          "3": {
+            "web": {
+              "description": "Press the grant permission button"
+            },
+            "mobile": {
+              "description": "Press the grant permission button"
+            }
+          }
+        }
+      },
+      "cancel": "Cancel",
+      "next": "Submit"
+    },
+    "ebay": {
+      "title": "Link your Ebay Account",
+      "content": {
+        "description": "Please follow the instructions and click continue below to link your ebay account",
+        "slides": {
+          "1": {
+            "web": {
+              "description": "Please sign in your seller id and password"
+            },
+            "mobile": {
+              "description": "Please sign in your seller id and password"
+            }
+          },
+          "2": {
+            "web": {
+              "description": "Than click the agree button"
+            },
+            "mobile": {
+              "description": "Than click the agree button"
+            }
+          }
+        }
+      },
+      "cancel": "Cancel",
+      "next": "Submit"
+    },
+    "amazon": {
+      "form": {
+        "title": "Fill the below from amazon's response:",
+        "button": "Link account"
+      },
+      "sellerId": {
+        "label": "Seller ID",
+        "placeholder": "Start typing..."
+      },
+      "marketplaceId": {
+        "label": "Marketplace ID",
+        "placeholder": "Start typing..."
+      },
+      "authorizationToken": {
+        "label": "MWS Authorisation Token",
+        "placeholder": "Start typing..."
+      },
+      "content": {
+        "slides": {
+          "1": {
+            "web": {
+              "description": "<p>Welcome to amazon account linking tutorial</p><p>If you already have the information, skip and fill the details below.</p><p>Please log-in to your amazon seller <b><a href='https://sellercentral.amazon.co.uk' target='_blank'>https://sellercentral.amazon.co.uk</a></b>"
+            },
+            "mobile": {
+              "description": "<p>Welcome to amazon account linking</p><p>tutorial. Please log-in</p><p><b><a href='https://sellercentral.amazon.co.uk' target='_blank'>https://sellercentral.amazon.co.uk</a></b></p>"
+            }
+          },
+          "2": {
+            "web": {
+              "description": "<p>On 'User permission' screen pass the</p><p><b>Visit Manage Your Apps</b></p>"
+            },
+            "mobile": {
+              "description": "<p>On 'User permission' screen pass the</p><p><b>Visit Manage Your Apps</b></p>"
+            }
+          },
+          "3": {
+            "web": {
+              "description": "<p>On 'Manage the app' screen press the</p><p><b>Authorise new developer</b> button</p>"
+            },
+            "mobile": {
+              "description": "<p>On 'Manage the app' screen press the</p><p><b>Authorise new developer</b> button</p>"
+            }
+          },
+          "4": {
+            "web": {
+              "description": "<p>Copy the Name: <b>Sandbox</b> and the</p><p>Developer's ID: <b>616491122591</b></p><p>to amazon's screen and press 'Next'</p>"
+            },
+            "mobile": {
+              "description": "<p>Copy the Name: <b>Sandbox</b> and the</p><p>Developer's ID: <b>616491122591</b></p><p>to amazon's screen and press 'Next'</p>"
+            }
+          },
+          "5": {
+            "web": {
+              "description": "<p>Tick the checkboxes to accept</p><p>the terms of service</p>"
+            },
+            "mobile": {
+              "description": "<p>Tick the checkboxes to accept</p><p>the terms of service</p>"
+            }
+          },
+          "6": {
+            "web": {
+              "description": "<p>Copy the response from Amazon</p><p>to the below fields</p>"
+            },
+            "mobile": {
+              "description": "<p>Copy the response from Amazon</p><p>to the below fields (scroll down)</p>"
+            }
+          }
+        }
+      }
+    }
+  },
+  "businessTypeSelection": {
+    "title": "Let's get started",
+    "subtitle": "Are you a limited company?",
+    "subContent": "You are eligible to apply for a business loan with Metro Bank. Please continue to progress with your application.",
+    "extraInfo1": "Please double check with the eligibility criteria below before you continue. If you need to make a cup of coffee, now is the best time.",
+    "infoList": {
+      "checked": {
+        "LIMITED_COMPANY": {
+          "youAre": "You are {{system.infoList.checked.LIMITED_COMPANY.minAge}}+ and a {{system.infoList.checked.LIMITED_COMPANY.resident}} resident",
+          "activelyTrading": "Have been actively trading for at least {{system.infoList.checked.LIMITED_COMPANY.minActivelyTrading}} months",
+          "annualTurnover": "With an annual turnover <span class='text--strong'>between</span> {{system.currencySign}}{{system.infoList.checked.LIMITED_COMPANY.minAnnualTurnover}} and {{system.currencySign}}{{system.infoList.checked.LIMITED_COMPANY.maxAnnualTurnover}}",
+          "maxBalanceSheet": "A balance sheet of <span class='text--strong'>less than</span> {{system.currencySign}}{{system.infoList.checked.LIMITED_COMPANY.maxBalanceSheet}}",
+          "maxEmployees": "You are a director with less than {{system.infoList.checked.LIMITED_COMPANY.maxEmployees}} employees",
+          "monthsRegistration": "Registered with Companies House for {{system.infoList.checked.LIMITED_COMPANY.monthsRegistration}} months",
+          "maxVotingRights": "Must have <span class='text--strong'>less than {{system.infoList.checked.LIMITED_COMPANY.maxVotingRights}}%</span> of your firms voting rights controlled by a public body",
+          "owner": "You must be the owner of the company you are applying for",
+          "votingRights": " Must have less than 25% of your firms voting rights controlled by a public body"
+        }
+      }
+    },
+    "infoSpec": {
+      "email": "Business email address",
+      "phone": "Mobile phone with camera",
+      "photo": "Government-issued photo ID",
+      "vat": "VAT returns",
+      "banking": "Open banking or bank statements",
+      "personal": "Personal guarantee "
+    },
+    "whatYouWillNeed": "What you’ll need",
+    "next": "I'm ready!",
+    "exit": "Exit",
+    "targetUrl": "https://www.metrobankonline.co.uk/business/borrowing/",
+    "finalInfo": "To apply for a Business loan, we need to ask you for both business and personal information. We only ask for what we need to make a decision. We’ll provide you with additional information as your application proceeds.<br>If you have any questions about the use of your personal information or want to exercise any of your rights, please contact our Data Protection Officer at <a href=\"mailto:DataProtectionOfficer@metrobank.plc.uk?subject=Data Protection\">DataProtectionOfficer@metrobank.plc.uk</a>, or please write to \"Data Protection\" at the above address."
+  },
+  "rejectionNotLimitedCompany": {
+    "title": "Unfortunately…",
+    "description": "Your business must be a limited company to apply for this business loan.",
+    "image": {
+      "alt": "computer"
+    },
+    "button": {
+      "targetUrl": "https://www.metrobankonline.co.uk/business/borrowing/",
+      "label": "Return to {{system.vendorName}}"
+    }
+  },
+  "referral": {
+    "title": "Your application has been referred",
+    "subtitle": "Thank you for your application.",
+    "description": "Your application has been referred and we will need a little more time to make a decision. Please <span class='text--strong'>look out for an email from us</span> as we will be in touch soon.",
+    "image": {
+      "alt": "computer"
+    },
+    "button": {
+      "targetUrl": "https://www.metrobankonline.co.uk/business/borrowing/",
+      "label": "Exit"
+    }
+  },
+  "rejectionCompanyType": {
+    "title": "Unfortunately…",
+    "description": "Based on your company information provided, your business is not eligible for this product. Please contact us on <span>relationship manager.</span>",
+    "image": {
+      "alt": "computer"
+    },
+    "button": {
+      "targetUrl": "https://www.metrobankonline.co.uk/business/borrowing/",
+      "label": "Return to {{system.vendorName}}"
+    }
+  },
+  "rejectionFullDecision": {
+    "title": "Unfortunately…",
+    "description": "Based on your company information provided, your business is not eligible for this product. Please contact us on <span>relationship manager.</span>",
+    "image": {
+      "alt": "computer"
+    },
+    "button": {
+      "targetUrl": "https://www.metrobankonline.co.uk/business/borrowing/",
+      "label": "Return to {{system.vendorName}}"
+    }
+  },
+  "rejectionNotSME": {
+    "title": "Unfortunately…",
+    "description": "Based on your company information provided, your business is not eligible for this product. Please contact us on <span>relationship manager.</span>",
+    "image": {
+      "alt": "computer"
+    },
+    "button": {
+      "targetUrl": "https://www.metrobankonline.co.uk/business/borrowing/",
+      "label": "Return to {{system.vendorName}}"
+    }
+  },
+  "rejectionQuoteRequest": {
+    "title": "We’re sorry…",
+    "description": "Unfortunately we are unable to offer you a business loan at this time. Please speak to one of our colleagues in store, should you need further assistance.",
+    "image": {
+      "alt": "computer"
+    },
+    "button": {
+      "targetUrl": "https://www.metrobankonline.co.uk/business/borrowing/",
+      "label": "Back to homepage"
+    }
+  },
+  "quoteError": {
+    "title": "We’re sorry…",
+    "description": "Unfortunately we are unable to offer you a business loan at this time. Please speak to one of our colleagues in store, should you need further assistance.",
+    "image": {
+      "alt": "computer"
+    },
+    "button": {
+      "targetUrl": "https://www.metrobankonline.co.uk/business/borrowing/",
+      "label": "Back to homepage"
+    }
+  },
+  "rejectionCustomerAlreadyExist": {
+    "title": "We’re sorry…",
+    "description": "Unfortunately we are unable to offer you a business loan at this time. Please speak to one of our colleagues in store, should you need further assistance.",
+    "image": {
+      "alt": "computer"
+    },
+    "button": {
+      "targetUrl": "https://www.metrobankonline.co.uk/business/borrowing/",
+      "label": "Back to homepage"
+    }
+  },
+  "rejectedWrongDetails": {
+    "title": "We’re sorry…",
+    "description": "Unfortunately we are unable to offer you a business loan at this time. Please speak to one of our colleagues in store, should you need further assistance.",
+    "image": {
+      "alt": "computer"
+    },
+    "button": {
+      "targetUrl": "https://www.metrobankonline.co.uk/business/borrowing/",
+      "label": "Back to homepage"
+    }
+  },
+  "rejectedMoreThan1Director": {
+    "title": "We’re sorry…",
+    "description": "Unfortunately we are unable to offer you a business loan at this time. Please speak to one of our colleagues in store, should you need further assistance.",
+    "image": {
+      "alt": "computer"
+    },
+    "button": {
+      "targetUrl": "https://www.metrobankonline.co.uk/business/borrowing/",
+      "label": "Back to homepage"
+    }
+  },
+  "quote1": {
+    "title": "Your instant quote",
+    "subtitle": "Fill in the details below to find out how much you could be eligible for. Great news is, this doesn't affect your credit score."
+  },
+  "quote2": {
+    "title": "your personalised rate",
+    "subtitle": "Fill in the details below and find out how much you could be eligible for. Great news is, this doesn't affect your credit score."
+  },
+  "quote3": {
+    "title": "your personalised rate",
+    "subtitle": "Fill in the details below and find out how much you could be eligible for. Great news is, this doesn't affect your credit score.",
+    "nextButtonText": "Get Quote"
+  },
+  "quote4": {
+    "title": "your personalised rate",
+    "subtitle": "Fill in the details below and find out how much you could be eligible for. Great news is, this doesn't affect your credit score.",
+    "nextButtonText": "Get Quote"
+  },
+  "approvedQuote": {
+    "title": "Your instant quote",
+    "subtitle": "",
+    "subtitleTemporaryDisabled": "Although you weren't eligible for the amount you initially wanted, you are highly likely to be approved for a loan within the limits we have set below",
+    "valuesNotice": "The values above are based on the information you have given us. Upon starting your application, the information provided will be validated against the additional information requested which makes the breakdown subject to change.",
+    "takeLoanQuestion": "Would you like to take this quote?"
+  },
+  "createUser": {
+    "title": "Create an account",
+    "subtitle": "To progress with your application, please create an account which you will use to access your loan. If your user account exists, please click login on the header to redirect automatically to the login page."
+  },
+  "aboutYourBusiness1": {
+    "title": "Tell us about your Business",
+    "subtitle": "We need a few details about your business to help support your application",
+    "addressTradingDetailsQuestion": "Are Registered details the same as Trading details?",
+    "businessAddressLabel": "Registered business address"
+  },
+  "aboutYourBusiness2": {
+    "title": "About your Business",
+    "subtitle": "We need a few details about your business to help support your application",
+    "tradingOutsideOfUKQuestion": "Do you trade outside of the UK?",
+    "suppliersOutsideOfUKQuestion": "Are any of your suppliers outside of the UK?"
+  },
+  "moreAboutYou": {
+    "title": "More about you",
+    "subtitle": "We need a few details about you"
+  },
+  "summary": {
+    "title": "Summary",
+    "subtitle": "Please review all information before continuing on to view your loan offer from us",
+    "submitButtonText": "Submit application",
+    "applicationInfo": {
+      "title": "Application information",
+      "entityTypeLabel": "Entity type",
+      "companyNameNumberLabel": "Company name or number",
+      "annualRevenue": "Annual turnover ({{system.currencySign}})",
+      "loanPurpose": "Purpose of loan",
+      "email": "Email address",
+      "residentialAddress": "Residential address"
+    },
+    "loanRequest": {
+      "title": "Requested loan amount",
+      "term": " Duration: {{term}} months"
+    },
+    "business": {
+      "title": "Business details",
+      "mainPhoneNumberLabel": "Main business phone number",
+      "registeredAddressLabel": "Registered business address",
+      "cashPercentageLabel": "Percentage of cash income",
+      "sourceOfIncome": "Source of income",
+      "tradingCountries": "Trading countries",
+      "suppliersCountries": "Suppliers countries"
+    },
+    "idverification": {
+      "title": "ID Verification",
+      "uploaded": "Uploaded",
+      "notUploaded": "Not uploaded"
+    }
+  },
+  "offer": {
+    "title": "Your loan offer",
+    "subtitle": "Based on your request and the information provided, the amount we are able to credit you is shown below:",
+    "offeredAmountLabel": "Offered amount",
+    "offeredTermLabel": "Duration",
+    "totalInterestLabel": "Total interest",
+    "totalAmountLabel": "Total amount payable",
+    "aprLabel": "APR",
+    "monthlyRepaymentsLabel": "Monthly repayments",
+    "lastPaymentLabel": "Last payment",
+    "notVisiblePaymentScheduleButtonLabel": "View payment schedule",
+    "visiblePaymentScheduleButtonLabel": "Hide payment schedule",
+    "showMoreSchedulePayments": "See more payments",
+    "showLessSchedulePayments": "See less payments",
+    "takeLoanButtonLabel": "Take this loan"
+  },
+  "fundingOptions": {
+    "title": "there always an option...",
+    "contentTitle": "Thank you for your application",
+    "contentText": "Unfortunately we are unable to offer you loan at this time, however, you have been successfully matched with <strong>{{matchesLength}} alternative lenders</strong> through Funding Options, who are specialists in matching UK businesses with business finance",
+    "contentMore": "Tell me more about Funding Options",
+    "foButton": "Funding Options"
+  },
+  "bankDetails": {
+    "title": "Account details for disbursement",
+    "subtitle": "Please tell us where you would like your loan funds to be disbursed."
+  }
+}

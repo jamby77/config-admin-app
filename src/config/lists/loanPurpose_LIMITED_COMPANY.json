@@ -1,0 +1,14 @@
+[
+  { "value": "EXPANSION" },
+  { "value": "REFINANCE_EXIST_DEBT" },
+  { "value": "PAY_HMRC_BILL" },
+  { "value": "EQUIPMENT" },
+  { "value": "GEN_BUS_EXPENSE" },
+  { "value": "BUY_EQUITY_STAKE_IN_BUS" },
+  { "value": "WORK_CAPITAL" },
+  { "value": "STOCK_PURCHASE" },
+  { "value": "STAFF_SALARY" },
+  { "value": "SHARE_BUY_BACK" },
+  { "value": "PROFESSIONAL_INSURANCE_FEES" },
+  { "value": "OTHER" }
+]

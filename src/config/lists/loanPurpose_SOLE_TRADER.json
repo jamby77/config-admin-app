@@ -1,0 +1,12 @@
+[
+  { "value": "WORK_CAPITAL" },
+  { "value": "EXPANSION" },
+  { "value": "EQUIPMENT" },
+  { "value": "STOCK_PURCHASE" },
+  { "value": "STAFF_SALARY" },
+  { "value": "PAY_HMRC_BILL" },
+  { "value": "GEN_BUS_EXPENSE" },
+  { "value": "REFINANCE_EXIST_DEBT" },
+  { "value": "REFINANCE_VENDOR_LOAN" },
+  { "value": "BUY_EQUITY_STAKE_IN_BUS" }
+]
