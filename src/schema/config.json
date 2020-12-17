@@ -24,9 +24,7 @@
         "inactiveLogout": {
           "description": "Defines after how many minutes to logout user",
           "type": "object",
-          "required": [
-            "minutes"
-          ],
+          "required": ["minutes"],
           "properties": {
             "minutes": {
               "type": "number"
@@ -124,20 +122,61 @@
       "type": "object"
     },
     "languages": {
-      "description": "",
-      "type": "object"
+      "description": "Supported languages configuration",
+      "type": "object",
+      "properties": {
+        "defaultLanguage": {
+          "description": "Default app language",
+          "type": "string"
+        },
+        "fallbackLanguage": {
+          "description": "Fallback language",
+          "type": "string"
+        },
+        "languageList": {
+          "description": "List of supported languages",
+          "type": "object",
+          "patternProperties": {
+            "[a-z]{2}": {
+              "description": "Key is language 2 letter code, `en` for example",
+              "type": "object",
+              "required": ["translation"],
+              "properties": {
+                "translation": {
+                  "description": "All translation strings used in the app. Dynamic object",
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
     },
     "environments": {
-      "description": "",
-      "type": "object"
-    },
-    "idv": {
-      "description": "",
-      "type": "object"
+      "description": "Various environment related configurations",
+      "type": "object",
+      "properties": {
+        "appHost": {
+          "type": "string"
+        }
+      }
     },
     "routing": {
-      "description": "",
-      "type": "object"
+      "description": "Define various routes to external sites",
+      "type": "object",
+      "required": ["systemUi"],
+      "properties": {
+        "logoutUrl": {
+          "type": "string"
+        },
+        "systemUi": {
+          "description": "This app's url",
+          "type": "string"
+        },
+        "vendorWebsiteUrl": {
+          "type": "string"
+        }
+      }
     },
     "fuzzyEnabled": {
       "description": "Is fuzzy logic enabled",
@@ -148,11 +187,9 @@
       "type": "boolean"
     },
     "caseMap": {
-      "description": "",
+      "description": "Map structure to case field paths",
       "type": "object"
     }
   },
-  "required": [
-    "system"
-  ]
+  "required": ["system"]
 }
