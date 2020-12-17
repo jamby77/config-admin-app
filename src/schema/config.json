@@ -141,7 +141,20 @@
     },
     "eCommerce": {
       "description": "",
-      "type": "object"
+      "type": "object",
+      "propertyNames": {
+        "enum": ["paypal", "ebay", "amazon"]
+      },
+      "patternProperties": {
+        "": {
+          "type": "object",
+          "properties": {
+            "type": {
+              "type": "string"
+            }
+          }
+        }
+      }
     },
     "linkAccount": {
       "description": "Link external providers' account",
