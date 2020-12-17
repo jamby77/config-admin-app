@@ -6,6 +6,14 @@
   "type": "object",
   "additionalProperties": true,
   "definitions": {
+    "validationRules": {
+      "$id": "#validationRules",
+      "type": "string"
+    },
+    "customErrorMessage": {
+      "$id": "#customErrorMessage",
+      "type": "object"
+    },
     "linkedAccount": {
       "type": "object",
       "properties": {
@@ -28,14 +36,10 @@
     },
     "amazonAccountProp": {
       "type": "object",
-      "properties": {
-        "validationRules": {
-          "type": "string"
-        },
-        "customErrorMessage": {
-          "type": "object"
-        }
-      }
+      "allOf": [
+        { "$ref": "#validationRules" },
+        { "$ref": "#customErrorMessage" }
+      ]
     },
     "accountStatement": {
       "description": "",
@@ -161,7 +165,41 @@
     },
     "meta": {
       "description": "",
-      "type": "object"
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "consents": {
+          "type": "object",
+          "propertyNames": {
+            "enum": [
+              "privacyNote",
+              "termsAndConditions",
+              "authorizedDirector",
+              "personalGuarantee"
+            ]
+          },
+          "patternProperties": {
+            "": {
+              "type": "object",
+              "allOf": [
+                {
+                  "properties": {
+                    "defaultValue": {
+                      "type": "boolean"
+                    }
+                  }
+                },
+                {
+                  "$ref": "#validationRules"
+                },
+                {
+                  "$ref": "#customErrorMessage"
+                }
+              ]
+            }
+          }
+        }
+      }
     },
     "vatStatement": {
       "description": "",

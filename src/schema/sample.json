@@ -4883,38 +4883,4 @@
     "type": "ALL",
     "includeCompanies": false
   },
-  "meta": {
-    "consents": {
-      "privacyNote": {
-        "defaultValue": false,
-        "validationRules": "accepted",
-        "customErrorMessage": {
-          "accepted": "REQUIRED"
-        }
-      },
-      "termsAndConditions": {
-        "defaultValue": false,
-        "validationRules": "accepted",
-        "customErrorMessage": {
-          "accepted": "REQUIRED"
-        }
-      },
-      "authorizedDirector": {
-        "defaultValue": false,
-        "validationRules": "accepted",
-        "customErrorMessage": {
-          "checkbox": "REQUIRED"
-        }
-      },
-      "personalGuarantee": {
-        "defaultValue": false,
-        "validationRules": "accepted",
-        "customErrorMessage": {
-          "checkbox": "REQUIRED"
-        }
-      }
-    },
-    "communicationOptions": {},
-    "keepInformed": {}
-  }
 }
