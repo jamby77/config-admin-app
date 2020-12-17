@@ -14,6 +14,18 @@
       "$id": "#customErrorMessage",
       "type": "object"
     },
+    "objectWithValidationRules": {
+      "$id": "#objectWithValidationRules",
+      "type": "object",
+      "properties": {
+        "validationRules": {
+          "$ref": "#validationRules"
+        },
+        "customErrorMessage": {
+          "$ref": "#customErrorMessage"
+        }
+      }
+    },
     "linkedAccount": {
       "type": "object",
       "properties": {
@@ -36,10 +48,7 @@
     },
     "amazonAccountProp": {
       "type": "object",
-      "allOf": [
-        { "$ref": "#validationRules" },
-        { "$ref": "#customErrorMessage" }
-      ]
+      "$ref": "#objectWithValidationRules"
     },
     "accountStatement": {
       "description": "",
@@ -157,7 +166,129 @@
     },
     "officers": {
       "description": "",
-      "type": "object"
+      "type": "object",
+      "properties": {
+        "showNextButton": {
+          "type": "boolean"
+        },
+        "fraudIncludeThisIsMeShareholders": {
+          "type": "boolean"
+        },
+        "fraudIncludeNotActiveShareholders": {
+          "type": "boolean"
+        },
+        "enableWasEditSkipped": {
+          "type": "boolean"
+        },
+        "type": {
+          "type": "string",
+          "enum": ["ALL"]
+        },
+        "includeCompanies": {
+          "type": "boolean"
+        },
+        "personDetails": {
+          "description": "Officers' personal details",
+          "properties": {
+            "address": {
+              "$id": "#address",
+              "type": "object",
+              "anyOf": [
+                {
+                  "$ref": "#objectWithValidationRules"
+                },
+                {
+                  "properties": {
+                    "policyField": {
+                      "type": "string"
+                    },
+                    "lastLineManualEditing": {
+                      "type": "boolean"
+                    },
+                    "manualAddress": {
+                      "$id": "#manualAddress",
+                      "type": "object",
+                      "properties": {
+                        "line1": {
+                          "$ref": "#objectWithValidationRules"
+                        },
+                        "line2": {
+                          "$ref": "#objectWithValidationRules"
+                        },
+                        "town": {
+                          "$ref": "#objectWithValidationRules"
+                        },
+                        "postcode": {
+                          "$ref": "#objectWithValidationRules"
+                        },
+                        "country": {
+                          "anyOf": [
+                            { "$ref": "#objectWithValidationRules" },
+                            {
+                              "$ref": "#inputProps"
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            "birthDate": {
+              "$id": "#birthDate",
+              "type": "object",
+              "anyOf": [
+                {
+                  "$ref": "#objectWithValidationRules"
+                },
+                {
+                  "properties": {
+                    "minAge": {
+                      "type": "number",
+                      "minimum": 0
+                    },
+                    "maxAge": {
+                      "type": "number",
+                      "minimum": 0
+                    }
+                  }
+                }
+              ]
+            },
+            "email": {
+              "$id": "#email",
+              "anyOf": [
+                {
+                  "$ref": "#objectWithValidationRules"
+                },
+                {
+                  "properties": {
+                    "inputProps": {
+                      "$id": "#inputProps",
+                      "type": "object"
+                    }
+                  }
+                }
+              ]
+            },
+            "fullName": {
+              "$id": "#fullName",
+              "properties": {
+                "firstName": {
+                  "$ref": "#objectWithValidationRules"
+                },
+                "middleName": {
+                  "$ref": "#objectWithValidationRules"
+                },
+                "lastName": {
+                  "$ref": "#objectWithValidationRules"
+                }
+              }
+            }
+          }
+        }
+      }
     },
     "personsSignificantControl": {
       "description": "",
@@ -199,10 +330,7 @@
                   }
                 },
                 {
-                  "$ref": "#validationRules"
-                },
-                {
-                  "$ref": "#customErrorMessage"
+                  "$ref": "#objectWithValidationRules"
                 }
               ]
             }
