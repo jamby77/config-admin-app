@@ -5144,8 +5144,5 @@
     "waitTime": {
       "seconds": 10
     }
-  },
-  "popupLoader": {
-    "type": "ball-pulse"
-  },
+  }
 }

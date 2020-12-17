@@ -118,8 +118,14 @@
       "type": "object"
     },
     "popupLoader": {
-      "description": "",
-      "type": "object"
+      "description": "Popup loader configuration",
+      "type": "object",
+      "properties": {
+        "type": {
+          "description": "Type of loader animation",
+          "type": "string"
+        }
+      }
     },
     "languages": {
       "description": "Supported languages configuration",
