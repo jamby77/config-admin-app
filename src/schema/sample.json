@@ -4879,8 +4879,4 @@
       }
     }
   },
-  "personsSignificantControl": {
-    "type": "ALL",
-    "includeCompanies": false
-  },
 }
