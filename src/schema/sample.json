@@ -1,14 +1,4 @@
 {
-  "system": {
-    "enableDeviceFraudCheck": true,
-    "vendorName": "Santander",
-    "uiVersion": "0.2.2",
-    "inactiveLogout": {
-      "minutes": 30
-    },
-    "checkFraud": false,
-    "isProduction": false
-  },
   "externalServices": {
     "googleTagManager": {
       "uaId": "UA-182634398-1",

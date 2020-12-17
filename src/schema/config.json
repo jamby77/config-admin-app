@@ -6,8 +6,42 @@
   "type": "object",
   "properties": {
     "system": {
-      "description": "",
-      "type": "object"
+      "description": "System settings",
+      "type": "object",
+      "properties": {
+        "enableDeviceFraudCheck": {
+          "description": "Turn on Iovation device fraud check",
+          "type": "boolean"
+        },
+        "vendorName": {
+          "description": "Vendor name (e.g. MetroBank)",
+          "type": "string"
+        },
+        "uiVersion": {
+          "description": "Deployed version of UI",
+          "type": "string"
+        },
+        "inactiveLogout": {
+          "description": "Defines after how many minutes to logout user",
+          "type": "object",
+          "required": [
+            "minutes"
+          ],
+          "properties": {
+            "minutes": {
+              "type": "number"
+            }
+          }
+        },
+        "checkFraud": {
+          "description": "TODO",
+          "type": "boolean"
+        },
+        "isProduction": {
+          "description": "Is the app running in production mode",
+          "type": "boolean"
+        }
+      }
     },
     "externalServices": {
       "description": "",
@@ -118,5 +152,7 @@
       "type": "object"
     }
   },
-  "required": ["system"]
+  "required": [
+    "system"
+  ]
 }
