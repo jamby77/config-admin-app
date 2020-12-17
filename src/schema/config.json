@@ -36,6 +36,46 @@
           "type": "object"
         }
       }
+    },
+    "accountStatement": {
+      "description": "",
+      "type": "object",
+      "properties": {
+        "linkAccountDetails": {
+          "type": "object",
+          "properties": {
+            "displayIcons": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "upload": {
+          "type": "object",
+          "properties": {
+            "maxFiles": {
+              "type": "number",
+              "minimum": 0
+            },
+            "maxSize": {
+              "type": "number",
+              "minimum": 0
+            },
+            "type": {
+              "type": "string",
+              "enum": ["BANK", "OTHER", "VAT"]
+            },
+            "fileExtensions": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
     }
   },
   "properties": {
@@ -125,19 +165,19 @@
     },
     "vatStatement": {
       "description": "",
-      "type": "object"
+      "$ref": "#/definitions/accountStatement"
     },
     "accountScoreStatement": {
       "description": "",
-      "type": "object"
+      "$ref": "#/definitions/accountStatement"
     },
     "bankAccountStatement": {
       "description": "",
-      "type": "object"
+      "$ref": "#/definitions/accountStatement"
     },
     "financialAccountsStatement": {
       "description": "",
-      "type": "object"
+      "$ref": "#/definitions/accountStatement"
     },
     "eCommerce": {
       "description": "",
