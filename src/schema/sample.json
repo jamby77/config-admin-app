@@ -5095,54 +5095,5 @@
         }
       }
     }
-  },
-  "decision": {
-    "decisionPolicy": "legacy",
-    "minimumRequirements": [
-      {
-        "widgetName": "vatStatement.upload",
-        "minimum": 0
-      },
-      {
-        "widgetName": "bankAccountStatement.linkAccountDetails",
-        "minimum": 0
-      },
-      {
-        "widgetName": "bankAccountStatement.upload",
-        "minimum": 0
-      },
-      {
-        "widgetName": "financialAccountsStatement.linkAccountDetails",
-        "minimum": 0
-      },
-      {
-        "widgetName": "financialAccountsStatement.upload",
-        "minimum": 0
-      },
-      {
-        "widgetName": "accountScoreStatement.upload",
-        "minimum": 0
-      },
-      {
-        "widgetName": "accountScoreStatement.linkAccountDetails",
-        "minimum": 0
-      },
-      {
-        "widgetName": "eCommerce.paypal",
-        "minimum": 0
-      },
-      {
-        "widgetName": "eCommerce.ebay",
-        "minimum": 0
-      },
-      {
-        "widgetName": "eCommerce.amazon",
-        "minimum": 0
-      }
-    ],
-    "minimumMarketPlaceItems": 1,
-    "waitTime": {
-      "seconds": 10
-    }
   }
 }

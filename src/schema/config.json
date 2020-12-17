@@ -4,6 +4,7 @@
   "title": "Configuration schema",
   "description": "JSON Schema document describing what are the possible values in UI configuration",
   "type": "object",
+  "additionalProperties": true,
   "properties": {
     "system": {
       "description": "System settings",
@@ -114,8 +115,60 @@
       "type": "object"
     },
     "decision": {
-      "description": "",
-      "type": "object"
+      "description": "Decision config",
+      "type": "object",
+      "properties": {
+        "decisionPolicy": {
+          "type": "string",
+          "enum": ["legacy", "v2"]
+        },
+        "minimumRequirements": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "widgetName": {
+                "type": "string"
+              },
+              "minimum": {
+                "type": "number",
+                "minimum": 0
+              }
+            }
+          }
+        },
+        "minimumMarketPlaceItems": {
+          "type": "number"
+        },
+        "waitTime": {
+          "type": "object",
+          "propertyNames": {
+            "enum": [
+              "years",
+              "y",
+              "months",
+              "M",
+              "weeks",
+              "w",
+              "days",
+              "d",
+              "hours",
+              "h",
+              "minutes",
+              "m",
+              "seconds",
+              "s",
+              "milliseconds",
+              "ms"
+            ]
+          },
+          "patternProperties": {
+            "": {
+              "type": "number"
+            }
+          }
+        }
+      }
     },
     "popupLoader": {
       "description": "Popup loader configuration",
