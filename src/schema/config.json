@@ -5,6 +5,39 @@
   "description": "JSON Schema document describing what are the possible values in UI configuration",
   "type": "object",
   "additionalProperties": true,
+  "definitions": {
+    "linkedAccount": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string"
+        },
+        "contentType": {
+          "type": "string"
+        },
+        "linkedService": {
+          "type": "string"
+        },
+        "accountType": {
+          "type": "string"
+        },
+        "serviceName": {
+          "type": "string"
+        }
+      }
+    },
+    "amazonAccountProp": {
+      "type": "object",
+      "properties": {
+        "validationRules": {
+          "type": "string"
+        },
+        "customErrorMessage": {
+          "type": "object"
+        }
+      }
+    }
+  },
   "properties": {
     "system": {
       "description": "System settings",
@@ -111,8 +144,30 @@
       "type": "object"
     },
     "linkAccount": {
-      "description": "",
-      "type": "object"
+      "description": "Link external providers' account",
+      "type": "object",
+      "properties": {
+        "paypal": {
+          "$ref": "#/definitions/linkedAccount"
+        },
+        "ebay": { "$ref": "#/definitions/linkedAccount" },
+        "amazon": {
+          "allOf": [
+            {
+              "$ref": "#/definitions/linkedAccount"
+            },
+            {
+              "properties": {
+                "sellerId": { "$ref": "#/definitions/amazonAccountProp" },
+                "marketplaceId": { "$ref": "#/definitions/amazonAccountProp" },
+                "authorizationToken": {
+                  "$ref": "#/definitions/amazonAccountProp"
+                }
+              }
+            }
+          ]
+        }
+      }
     },
     "decision": {
       "description": "Decision config",

@@ -5054,46 +5054,5 @@
     "amazon": {
       "type": "amazon"
     }
-  },
-  "linkAccount": {
-    "paypal": {
-      "type": "instructionsAndTab",
-      "contentType": "paypal",
-      "linkedService": "paypal",
-      "accountType": "paypal",
-      "serviceName": "generate-login-url"
-    },
-    "ebay": {
-      "type": "instructionsAndTab",
-      "contentType": "ebay",
-      "linkedService": "ebay",
-      "accountType": "ebay",
-      "serviceName": "generate-login-url"
-    },
-    "amazon": {
-      "type": "amazon",
-      "contentType": "amazon",
-      "linkedService": "amazon",
-      "accountType": "amazon",
-      "serviceName": "link",
-      "sellerId": {
-        "validationRules": "required",
-        "customErrorMessage": {
-          "required": "REQUIRED"
-        }
-      },
-      "marketplaceId": {
-        "validationRules": "required",
-        "customErrorMessage": {
-          "required": "REQUIRED"
-        }
-      },
-      "authorizationToken": {
-        "validationRules": "required",
-        "customErrorMessage": {
-          "required": "REQUIRED"
-        }
-      }
-    }
   }
 }
