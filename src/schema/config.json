@@ -138,6 +138,22 @@
         "isProduction": {
           "description": "Is the app running in production mode",
           "type": "boolean"
+        },
+        "infoList": {
+          "type": "object",
+          "properties": {
+            "checked": {
+              "type": "object",
+              "propertyNames": {
+                "enum": ["LIMITED_COMPANY", "SOLE_TRADER"]
+              },
+              "patternProperties": {
+                "": {
+                  "type": "object"
+                }
+              }
+            }
+          }
         }
       }
     },
