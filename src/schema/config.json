@@ -6,6 +6,19 @@
   "type": "object",
   "additionalProperties": true,
   "definitions": {
+    "widgetConfig": {
+      "anyOf": [
+        {
+          "type": "object"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "$ref": "#/definitions/objectWithValidationRules"
+        }
+      ]
+    },
     "validationRules": {
       "$id": "#validationRules",
       "type": "string"
@@ -288,8 +301,26 @@
       }
     },
     "widgetsConfig": {
-      "description": "",
-      "type": "object"
+      "description": "Configurations for in page widgets",
+      "type": "object",
+      "patternProperties": {
+        "": {
+          "anyOf": [
+            {
+              "type": "object"
+            },
+            {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/widgetConfig"
+              }
+            },
+            {
+              "$ref": "#/definitions/widgetConfig"
+            }
+          ]
+        }
+      }
     },
     "officers": {
       "description": "",
