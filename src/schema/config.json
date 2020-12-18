@@ -188,12 +188,41 @@
       }
     },
     "product": {
-      "description": "",
-      "type": "object"
+      "description": "Product type",
+      "type": "object",
+      "properties": {
+        "loanType": {
+          "type": "string"
+        }
+      }
     },
     "pageRoutes": {
-      "description": "",
-      "type": "object"
+      "description": "SPA routes",
+      "type": "object",
+      "definitions": {
+        "route": {
+          "type": "object",
+          "properties": {
+            "url": {
+              "type": "string"
+            },
+            "title": {
+              "type": "string"
+            },
+            "excludeModules": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      },
+      "patternProperties": {
+        "^[a-zA-Z]+$": {
+          "$ref": "#/properties/pageRoutes/definitions/route"
+        }
+      }
     },
     "modals": {
       "description": "",

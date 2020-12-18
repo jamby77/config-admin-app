@@ -1,17 +1,4 @@
 {
-  "product": {
-    "loanType": "business loan"
-  },
-  "pageRoutes": {
-    "customerWizard": {
-      "url": "/customer/wizard"
-    },
-    "notFound": {
-      "url": "*",
-      "excludeModules": ["ProgressBar"],
-      "title": "pageRoutes.notFound"
-    }
-  },
   "modals": {
     "UploadDocModal": {},
     "ShareholderDetails": {},
