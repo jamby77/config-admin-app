@@ -129,12 +129,63 @@
       }
     },
     "externalServices": {
-      "description": "",
-      "type": "object"
+      "description": "Connected external services",
+      "type": "object",
+      "properties": {
+        "googleTagManager": {
+          "description": "Google tag manager configuration",
+          "type": "object",
+          "properties": {
+            "uaID": {
+              "type": "string"
+            },
+            "gtmId": {
+              "type": "string"
+            },
+            "allowedTracking": {
+              "type": "object",
+              "properties": {
+                "VirtualPageview": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "InputTracking": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "ButtonTracking": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
     },
     "locals": {
-      "description": "",
-      "type": "object"
+      "description": "Locale attributes",
+      "type": "object",
+      "properties": {
+        "currencySign": {
+          "type": "string"
+        },
+        "country": {
+          "type": "string"
+        },
+        "countryCode": {
+          "type": "string"
+        },
+        "currency": {
+          "type": "string"
+        }
+      }
     },
     "product": {
       "description": "",

@@ -1,21 +1,4 @@
 {
-  "externalServices": {
-    "googleTagManager": {
-      "uaId": "UA-182634398-1",
-      "gtmId": "GTM-TR5B986",
-      "allowedTracking": {
-        "VirtualPageview": ["Step", "Page"],
-        "InputTracking": ["onFocus", "onBlur", "checkboxClick"],
-        "ButtonTracking": ["onClick", "tooltipClick"]
-      }
-    }
-  },
-  "locals": {
-    "currencySign": "£",
-    "country": "UK",
-    "countryCode": "GB",
-    "currency": "GBP"
-  },
   "product": {
     "loanType": "business loan"
   },
