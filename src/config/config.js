@@ -16,6 +16,7 @@ import tradingActivityList from './lists/tradingActivity';
 import title from './lists/title';
 import countryList from './lists/countryList';
 import sourceOfIncomeList from './lists/sourceOfIncome';
+import theme from './theme';
 
 import { stepName, rejectionPageName } from '../utils/constants';
 
