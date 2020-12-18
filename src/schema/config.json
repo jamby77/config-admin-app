@@ -272,7 +272,7 @@
       }
     },
     "theme": {
-      "description": "",
+      "description": "Styled components theme",
       "type": "object"
     },
     "updateUserFields": {
