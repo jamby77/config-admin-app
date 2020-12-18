@@ -1,91 +1,4 @@
 {
-  "modals": {
-    "UploadDocModal": {},
-    "ShareholderDetails": {},
-    "LinkAccountDetails": {},
-    "GeneralError": {
-      "excludeModules": ["ProgressBar"]
-    }
-  },
-  "steps": [
-    {
-      "stepName": "introduction",
-      "default": true,
-      "excludeModules": ["ProgressBar"]
-    },
-    {
-      "stepName": "accountTypeAndContactDetails",
-      "progressBarStep": "accountTypeAndContactDetails"
-    },
-    {
-      "stepName": "accountTypeSelection",
-      "progressBarStep": "accountTypeAndContactDetails"
-    },
-    {
-      "stepName": "verifyId",
-      "progressBarStep": "verifyId"
-    },
-    {
-      "stepName": "idVerification",
-      "progressBarStep": "verifyId"
-    },
-    {
-      "stepName": "tryAgain",
-      "excludeModules": ["ProgressBar"]
-    },
-    {
-      "stepName": "passportDetails",
-      "progressBarStep": "verifyId"
-    },
-    {
-      "stepName": "drivingDetails",
-      "progressBarStep": "verifyId"
-    },
-    {
-      "stepName": "businessAndPersonalDetails",
-      "progressBarStep": "businessAndPersonalDetails"
-    },
-    {
-      "stepName": "addressDetails",
-      "progressBarStep": "businessAndPersonalDetails"
-    },
-    {
-      "stepName": "nationalityAndTaxDetails",
-      "progressBarStep": "businessAndPersonalDetails"
-    },
-    {
-      "stepName": "aboutYourBusiness",
-      "progressBarStep": "businessAndPersonalDetails"
-    },
-    {
-      "stepName": "financialsAccountScore",
-      "progressBarStep": "financials"
-    },
-    {
-      "stepName": "financials",
-      "progressBarStep": "financials"
-    },
-    {
-      "stepName": "almostThere",
-      "progressBarStep": "financials"
-    },
-    {
-      "stepName": "deposit",
-      "progressBarStep": "financials"
-    },
-    {
-      "stepName": "internationalActivity",
-      "progressBarStep": "financials"
-    },
-    {
-      "stepName": "finalOutcome",
-      "excludeModules": ["ProgressBar"]
-    },
-    {
-      "stepName": "rejectedKYCFail",
-      "excludeModules": ["ProgressBar"]
-    }
-  ],
   "theme": {
     "typography": {
       "primary": {
@@ -725,10 +638,6 @@
         "unCheckedTrack": "#C1E9EB"
       }
     }
-  },
-  "updateUserFields": {
-    "email": "applicant.email",
-    "password": "applicant.password"
   },
   "widgetsConfig": {
     "loanee": {

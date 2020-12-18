@@ -225,12 +225,51 @@
       }
     },
     "modals": {
-      "description": "",
-      "type": "object"
+      "description": "Various in app modals",
+      "type": "object",
+      "properties": {
+        "UploadDocModal": {
+          "type": "object"
+        },
+        "ShareholderDetails": {
+          "type": "object"
+        },
+        "LinkAccountDetails": {
+          "type": "object"
+        },
+        "GeneralError": {
+          "type": "object"
+        }
+      }
     },
     "steps": {
-      "description": "",
-      "type": "object"
+      "definitions": {
+        "step": {
+          "type": "object",
+          "properties": {
+            "stepName": {
+              "type": "string"
+            },
+            "default": {
+              "type": "boolean"
+            },
+            "progressBarStep": {
+              "type": "string"
+            },
+            "excludeModules": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      },
+      "description": "Configurations for wizard steps",
+      "type": "array",
+      "items": {
+        "$ref": "#/properties/steps/definitions/step"
+      }
     },
     "theme": {
       "description": "",
@@ -238,7 +277,15 @@
     },
     "updateUserFields": {
       "description": "",
-      "type": "object"
+      "type": "object",
+      "properties": {
+        "email": {
+          "type": "string"
+        },
+        "password": {
+          "type": "string"
+        }
+      }
     },
     "widgetsConfig": {
       "description": "",
