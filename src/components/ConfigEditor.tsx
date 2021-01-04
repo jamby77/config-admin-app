@@ -1,5 +1,9 @@
 import React, { useState } from "react";
-import {buildSections, sectionProperties, sectionSchema} from "./helper";
+import cn from "clsx";
+
+import { buildSections, sectionProperties, sectionSchema } from "./helper";
+import Sections from "./Sections";
+import SectionTab from "./SectionTab";
 
 interface ConfigEditorProps {
   config: { [key: string]: any };
@@ -21,29 +25,41 @@ const ConfigEditor: React.FC<ConfigEditorProps> = ({
   const { sections, misc } = buildSections(schema);
 
   return (
-    <main>
-      <div className="tabs">
-        {sections.map((s) => (
-          <div className="tab-heading" key={s} onClick={switchTab(s)}>
-            {s}
-          </div>
-        ))}
-        {misc.length > 0 && (
-          <div className="tab-heading" onClick={switchTab("misc")}>
-            misc
-          </div>
-        )}
-      </div>
+    <main className="md:flex flex-col md:flex-row md:min-h-screen w-full bg-gray-200">
+      <Sections>
+        <div className="flex-grow md:block px-4 pb-4 md:pb-0 md:overflow-y-aut">
+          {sections.map((s) => (
+            <SectionTab
+              currentSection={currentTab}
+              section={s}
+              key={s}
+              onClick={switchTab(s)}
+            />
+          ))}
+          {misc.length > 0 && (
+            <SectionTab
+              currentSection={currentTab}
+              section={"misc"}
+              onClick={switchTab("misc")}
+            />
+          )}
+        </div>
+      </Sections>
       {currentTab && (
-        <div className="tab-content">
-          <div>Section schema</div>
-          <pre>
-            {JSON.stringify(sectionSchema(currentTab, schema), null, 2)}
-          </pre>
-          <div>Section content</div>
-          <pre>
-            {JSON.stringify(sectionProperties(currentTab, config, misc), null, 2)}
-          </pre>
+        <div className="md:flex flex-col md:min-h-screen w-full">
+          <div className="px-8 py-4 bg-white w-full">Section content</div>
+          <div className=" px-8 py-4 w-full">
+            <pre>
+              {JSON.stringify(
+                sectionProperties(currentTab, config, misc),
+                null,
+                2
+              )}
+            </pre>
+            <pre>
+              {JSON.stringify(sectionSchema(currentTab, schema), null, 2)}
+            </pre>
+          </div>
         </div>
       )}
     </main>
