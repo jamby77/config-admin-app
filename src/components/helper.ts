@@ -1,5 +1,5 @@
-type Schema = { [key: string]: any };
-type Config = { [key: string]: any };
+export type Schema = { [key: string]: any };
+export type Config = { [key: string]: any };
 
 const cache: Schema = {};
 
@@ -89,7 +89,6 @@ const findObjectById = (id: string, schema: Schema): Schema | null => {
  */
 const resolveId = (path: string, schema: Schema) => {
   const id = schema["$id"] as string;
-  console.log(path, id);
   const cached = getCachedResult(id, path, "ids");
   if (cached) {
     return cached;
@@ -122,29 +121,16 @@ export const resolveRef = (path: string, schema: Schema) => {
  *
  * plain fields go into misc section
  *
- * @param schema
+ * @param config
  */
-export const buildSections = (schema: Schema) => {
-  const { properties } = schema;
+export const buildSections = (config: Config) => {
   const sections: string[] = [];
   const misc: string[] = [];
-  Object.keys(properties).forEach((propName) => {
-    const prop = properties[propName];
-    const { type } = prop;
-    if (type && (type === "object" || type === "array")) {
+  Object.entries(config).forEach(([propName, prop]) => {
+    const type = typeof prop;
+    if (type === "object" && prop !== null) {
       sections.push(propName);
       return;
-    }
-    if (type === undefined) {
-      const refProp = resolveRef(prop["$ref"], schema);
-      if (
-        refProp &&
-        refProp.type &&
-        (refProp.type === "object" || refProp.type === "array")
-      ) {
-        sections.push(propName);
-        return;
-      }
     }
     misc.push(propName);
   });
@@ -172,7 +158,42 @@ export const sectionSchema = (section: string, schema: Schema) => {
     const { misc } = buildSections(schema);
     return miscSchema(misc, schema);
   }
-  return schema.properties[section];
+  return { ...(schema.properties[section] || {}) };
+};
+
+export const fieldSchema = (field: string, schema: Schema) => {
+  let fieldSchemaProps: any = {};
+  if (schema.properties && schema.properties[field]) {
+    fieldSchemaProps = { ...(schema.properties[field] || {}) };
+  }
+  if (schema.patternProperties) {
+    // loop patternProperties to find a match, if patternProperties === "", any field gets the config
+    let match = null;
+    Object.entries(schema.patternProperties).forEach(
+      ([pattern, definition]) => {
+        if (pattern === "") {
+          match = definition;
+          return;
+        }
+        const regex = new RegExp(pattern);
+        if (regex.test(field)) {
+          match = definition;
+        }
+      }
+    );
+    if (match) {
+      fieldSchemaProps = match;
+    }
+  }
+
+  const { type } = fieldSchemaProps;
+  if (type === undefined && fieldSchemaProps["$ref"]) {
+    const refProp = resolveRef(fieldSchemaProps["$ref"], schema);
+    if (refProp && refProp.type) {
+      fieldSchemaProps = refProp;
+    }
+  }
+  return fieldSchemaProps;
 };
 
 const miscValues = (misc: string[], config: Config) => {

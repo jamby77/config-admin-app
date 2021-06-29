@@ -121,6 +121,10 @@
           "description": "Deployed version of UI",
           "type": "string"
         },
+        "currencySign": {
+          "description": "Currency sign",
+          "type": "string"
+        },
         "inactiveLogout": {
           "description": "Defines after how many minutes to logout user",
           "type": "object",
