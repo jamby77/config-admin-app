@@ -24,7 +24,7 @@ const baseColors = {
   focus: '#949494',
 };
 
-export default {
+const theme = {
   // TODO: Remove after CORE Fix missing default theme
   idVerification: {
     verifyIdentity: {
@@ -364,7 +364,7 @@ export default {
       disabled: {
         color: baseColors.reserve02,
         border: baseColors.reserve02,
-        background: 'transparent',
+        background: "transparent",
       },
       invalid: {
         background: baseColors.error,
@@ -383,7 +383,7 @@ export default {
       disabled: {
         color: baseColors.reserve02,
         border: baseColors.reserve02,
-        background: 'transparent',
+        background: "transparent",
       },
       invalid: {
         background: baseColors.error,
@@ -590,3 +590,5 @@ export default {
     },
   },
 };
+
+export default theme;

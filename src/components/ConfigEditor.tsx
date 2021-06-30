@@ -1,15 +1,16 @@
 import React, { useState } from "react";
 import cn from "clsx";
+import set from "lodash/set";
 
-import { buildSections, sectionProperties } from "./helper";
+import { buildSections, Config, sectionProperties } from "./helper";
 import Sections from "./Sections";
 import SectionTab from "./SectionTab";
-import ConfigForm from "./ConfigForm";
+import TopForm from "./ConfigForm";
 
 interface ConfigEditorProps {
   config: { [key: string]: any };
-  onChange?: (value: any) => void;
-  onSave?: (value: any) => void;
+  onChange: (value: Config) => void;
+  onSave: () => void;
 }
 
 const ConfigEditor: React.FC<ConfigEditorProps> = ({
@@ -24,9 +25,10 @@ const ConfigEditor: React.FC<ConfigEditorProps> = ({
   const { sections, misc } = buildSections(config);
 
   const currentValues = sectionProperties(currentTab, config, misc);
+
   return (
     <main className="md:flex flex-col md:flex-row md:min-h-screen w-full bg-gray-200">
-      <Sections>
+      <Sections onSave={onSave}>
         <div className="flex-grow md:block px-4 pb-4 md:pb-0 md:overflow-y-aut">
           {sections.map((s) => (
             <SectionTab
@@ -54,7 +56,14 @@ const ConfigEditor: React.FC<ConfigEditorProps> = ({
           </div>
           <div className="px-4 py-2 w-full">
             <div className="w-full bg-white rounded px-8 py-4">
-              <ConfigForm config={currentValues} />
+              <TopForm
+                config={currentValues}
+                onChange={(value: Config) => {
+                  const update = set({ ...config }, currentTab, value);
+                  onChange(update);
+                }}
+                path={currentTab}
+              />
             </div>
           </div>
         </div>

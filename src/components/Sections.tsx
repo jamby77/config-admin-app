@@ -1,7 +1,13 @@
 import React from "react";
 import cn from "clsx";
 
-const Sections = ({ children }: { children: React.ReactNode }) => {
+const Sections = ({
+  children,
+  onSave,
+}: {
+  children: React.ReactNode;
+  onSave: () => void;
+}) => {
   return (
     <div
       className={cn([
@@ -19,14 +25,13 @@ const Sections = ({ children }: { children: React.ReactNode }) => {
     >
       <div className="flex-shrink-0 px-8 py-4 flex flex-row items-center justify-between">
         <a
-          href="#"
+          href="/"
           className={cn([
             "text-lg",
             "font-semibold",
             "tracking-widest",
             "text-gray-900",
             "uppercase",
-            "rounded-lg",
             "dark-mode:text-white",
             "focus:outline-none",
             "focus:shadow-outline",
@@ -34,7 +39,11 @@ const Sections = ({ children }: { children: React.ReactNode }) => {
         >
           Config UI
         </a>
-        <button className="rounded-lg md:hidden rounded-lg focus:outline-none focus:shadow-outline">
+        <button onClick={onSave} className="">
+          Save
+        </button>
+        <button className="rounded-lg md:hidden focus:outline-none focus:shadow-outline">
+          <span className="sr-only">Toggle</span>
           <svg fill="currentColor" viewBox="0 0 20 20" className="w-6 h-6">
             <path
               fillRule="evenodd"
