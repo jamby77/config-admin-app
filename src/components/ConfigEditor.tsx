@@ -6,6 +6,7 @@ import { buildSections, Config, sectionProperties } from "./helper";
 import Sections from "./Sections";
 import SectionTab from "./SectionTab";
 import TopForm from "./ConfigForm";
+import ConfigInput from "./ConfigInput";
 
 interface ConfigEditorProps {
   config: { [key: string]: any };
@@ -18,17 +19,17 @@ const ConfigEditor: React.FC<ConfigEditorProps> = ({
   onChange,
   onSave,
 }) => {
-  const [currentTab, setCurrentTab] = useState("");
+  const { sections, misc } = buildSections(config);
+  const [currentTab, setCurrentTab] = useState(sections && sections[0]);
   const switchTab = (tab: string) => {
     return () => setCurrentTab(tab);
   };
-  const { sections, misc } = buildSections(config);
-
+  const [addSection, setAddSection] = useState(false);
   const currentValues = sectionProperties(currentTab, config, misc);
 
   return (
     <main className="md:flex flex-col md:flex-row md:min-h-screen w-full bg-gray-200">
-      <Sections onSave={onSave}>
+      <Sections onSave={onSave} onAddSection={() => setAddSection(true)}>
         <div className="flex-grow md:block px-4 pb-4 md:pb-0 md:overflow-y-aut">
           {sections.map((s) => (
             <SectionTab
@@ -45,6 +46,7 @@ const ConfigEditor: React.FC<ConfigEditorProps> = ({
               onClick={switchTab("misc")}
             />
           )}
+          {addSection && <ConfigInput />}
         </div>
       </Sections>
       {currentTab && (

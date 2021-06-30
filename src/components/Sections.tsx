@@ -4,9 +4,11 @@ import cn from "clsx";
 const Sections = ({
   children,
   onSave,
+  onAddSection,
 }: {
   children: React.ReactNode;
   onSave: () => void;
+  onAddSection: () => void;
 }) => {
   return (
     <div
@@ -39,7 +41,7 @@ const Sections = ({
         >
           Config UI
         </a>
-        <button onClick={onSave} className="">
+        <button onClick={onSave} className="border rounded-lg py-1 px-2">
           Save
         </button>
         <button className="rounded-lg md:hidden focus:outline-none focus:shadow-outline">
@@ -56,6 +58,11 @@ const Sections = ({
               clipRule="evenodd"
             />
           </svg>
+        </button>
+      </div>
+      <div className="flex-shrink-0 px-4 py-2">
+        <button className="border rounded-lg py-1 px-4" onClick={onAddSection}>
+          <span>+ </span> Add Section
         </button>
       </div>
       {children}
